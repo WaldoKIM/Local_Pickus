@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.sns_login{ text-align: center; }
+.sns_login h6{ padding: 7% 0 2% 0; }
+.sns_login ul li{ display: inline-block; padding: 10px; }
+.sns_login a{ display: inline-block; width: 50px; }
+@media (max-width:991px) {
+	.sns_login a{ display: inline-block; width: 35px; height: 35px; line-height: 35px; }
+}
+
+/* 로그인 */
+.login_wrap > div{ padding: 30px; border: 1px solid #ececec; border-radius: 30px; }
+.way li{ line-height: 40px; text-align: center; border: 1px solid #ececec; }
+.way .current{ color: #fff; border: 1px solid #1379cd; background: #1379cd; }
+.form_wrap .tabcontent{ display: none; }
+.form_wrap .tabcontent.current { display: block; }
+label a{ border-bottom: 1px solid #1379cd; }
+@media (max-width:991px) {
+	.login_wrap > div{ padding: 10px; border: 0; }
+}
+
+/*form 타이틀*/
+.form-group .txt_title{ position: relative; padding: 1.5em 0 0.5em 0; color: #1379ce; }
+.form-group .txt_title:before{ content: ""; position: absolute; top: 1em; left: 0; z-index: 1; width: 60px; height: 5px; background: #1379ce; }
+/*.form-group .txt_title span{ display: inline-block; padding: 0 20px 0 0; background: #fff; }*/
+.form_wrap .title{ line-height: 40px; }
+.form-group .error{ display: none; padding: 5px 0 0 0; font-size: 0.9em; line-height: 1em; text-align: right; color: #da1a1a; }
+.form-group .form_btn{ display: block; line-height: 40px; text-align: center; border-radius: 5px; }
+
+
+/* 제목 */
+.sub_tt{ padding: 0 0 5% 0; }
+.sub_tt h5{ padding: 0 0 5px 0; }
+.sub_tt p{ font-size: 0.9em; color: #989898; }
+.sub_tt p span{ color:#1379cd; border-bottom: 1px solid #1379cd; }
+
+/*찾기 버튼*/
+.login_btn a{ display: block; line-height: 40px; border-radius: 5px; }
+
+/*이미지등록전*/
+.estimate_image_click_bg{ margin: 0 0 10px 0; background: #f7f7f7; }
+.estimate_image_click_bg p{ padding: 0 0 20px 0; text-align: center; font-size: 0.8em; }
+
+/*이미지등록후*/
+.estimate_image_bg{ position: relative; border:1px solid #f7f7f7; }
+.estimate_image_del_bg{ position: absolute; top: 5px; right: 5px; z-index:9999;}
+.estimate_image_del_bg a{ font-size:3em; color:#e30000; }
+@media (max-width:991px) {
+	.estimate_image_click_bg{ margin: 15px 0; }
+}
+
+/*지역*/
+#area .signup_txt_area{ float: left; width: 33.3%; padding: 0 10px; line-height: 40px; }
+#area .signup_txt_area a{ float: right; width: 40px; color: #e30000; }
+@media (max-width:991px) {
+	#area .signup_txt_area{ float: left; width: 50%; }
+}
+
+#area .title{ padding: 0 0 15px 0; font-size: 1.2em; }
+#area .btn_default_01{ width: 100%; height: 40px; color: #fff; border-radius: 5px; background: #1379cd; }
+#area #divArea1, .signup_wrap .area #divArea2{ padding: 10px 0 0 0; }
+#area .signup_txt_area{ position: relative; padding: 5px 0 5px 15px; }
+#area .signup_txt_area:before{ content: "-"; position: absolute; left: 0; }
+
+/*매입품목*/
+#divGoodsItemList .title{ padding: 0 0 15px 0; font-size: 1.2em; }
+#divGoodsItemList label{ margin: 0 0 10px 0; }
+#divGoodsItemList input[type=checkbox].css-input-radio-checkbox{ position: absolute; overflow: hidden; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; padding: 0; border: 0; }
+#divGoodsItemList input[type=checkbox].css-input-radio-checkbox + label.css-input-radio-checkbox-label{ display: block; width: 100%; text-align: center; line-height: 40px; color:#a9a9a9; border: 1px solid #b1b1b1; }
+#divGoodsItemList input[type=checkbox].css-input-radio-checkbox:checked + label.css-input-radio-checkbox-label{ color: #ffffff; background-color: #127acd; border: solid 1px #b1b1b1; }
+@media (max-width:991px) {
+	#divGoodsItemList label{ margin: 0 0 10px 0; }
+}
+#divRemoveItemList .title{ padding: 0 0 15px 0; font-size: 1.2em; }
+#divRemoveItemList label{ margin: 0 0 10px 0; }
+#divRemoveItemList input[type=checkbox].css-input-radio-checkbox{ position: absolute; overflow: hidden; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; padding: 0; border: 0; }
+#divRemoveItemList input[type=checkbox].css-input-radio-checkbox + label.css-input-radio-checkbox-label{ display: block; width: 100%; text-align: center; line-height: 40px; color:#a9a9a9; border: 1px solid #b1b1b1; }
+#divRemoveItemList input[type=checkbox].css-input-radio-checkbox:checked + label.css-input-radio-checkbox-label{ color: #ffffff; background-color: #127acd; border: solid 1px #b1b1b1; }
+
+/*철거품목*/
+/*#divRemoveItemList .list li{ padding-top: 10px; }*/
+
+/*견적폼*/
+.modal_table table{ border-top: 2px solid #1379cd; }
+.modal_table table th{ padding: 10px 5px; font-weight: 300; text-align: center; border-bottom: 1px solid #ddd; }
+.modal_table table td{ padding: 10px 5px; border-bottom: 1px solid #ddd; }
+.modal_table .title{ text-align: center; line-height: 40px; border-radius: 5px; }
+.modal_table textarea{ height: 130px; }
+
+/*견적*/
+#choice .text-center{ padding: 7% 0 5% 0; }
+#choice .text-center i{ font-size: 3em; }
+#choice .text-center p{ padding: 10px 0 0 0; font-size: 1.2em; }

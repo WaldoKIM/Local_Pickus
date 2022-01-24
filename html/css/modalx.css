@@ -1,0 +1,299 @@
+
+
+    .modal-dialog{
+    width: 90%;
+    }
+
+    .form-group{
+        width: 66.66%;
+        margin: auto;
+        }
+
+    .addcomment{
+        height: 66rem;
+        margin: auto;
+        margin-top: -1rem;
+        border-radius:5px;
+        }
+        
+
+	#imageList {
+		padding-top: 1rem;
+		padding: 0;
+	}
+
+	#imageList .estimate_photo .estimate_image_click_bg {
+		height: 18vw !important;
+		width: 18vw !important;
+	}
+
+	#imageList .estimate_photo {
+
+		margin: 1rem;
+		margin-top: 0rem;
+		height: auto !important;
+		width: 18vw !important;
+	}
+
+	#imageList .estimate_photo img {
+		height: auto !important;
+		width: 18vw !important;
+	}
+    
+    .w5{        
+        width:5%;                
+        }
+    .w10{        
+        width:10%;                
+        }
+    .w15{        
+        width:15%;                
+        }
+    .w20{        
+        width:20%;                
+        }            
+    .w25{        
+        width:25%;                
+        }
+    .w30{        
+        width:30%;                
+        }
+    .w40{        
+        width:40%;                
+        }
+    .w50{        
+        width:50%;                
+        }            
+    
+        
+    .w60{        
+        width:60%;                
+        }
+    .w70{        
+        width:70%;                
+        }
+    
+    .bgcr{
+        background-color: rgb(49, 162, 255);
+    }    
+
+
+    .formflex{
+        display: flex; flex-direction:row;  flex-wrap: nowrap; align-items: center;
+        }
+
+    @media(max-width:768px){
+
+        .modal-dialog{
+            width: 90%;
+            }
+        
+            .form-group{
+                width: 90%;               
+                margin: auto;
+                }
+
+        #imageList .estimate_photo .estimate_image_click_bg {
+            height: 66vw !important;
+            width: 66vw !important;
+        }
+    
+        #imageList .estimate_photo {
+    
+            margin: 1rem;
+            margin-top: 0rem;
+            height: auto !important;
+            width: 66vw !important;
+        }
+    
+        #imageList .estimate_photo img {
+            height: auto !important;
+            width: 66vw !important;
+        }
+
+        .msubtitle
+        {font-size: 1rem;
+        text-align: center;}
+
+       p.tit_modal_match.msmallfont
+        {font-size: 1.8rem;}
+
+        .formflex{
+            display: flex; flex-direction:column;  flex-wrap: nowrap; align-items: center;
+            }
+
+    .m5{        
+        width:5%;                
+        }
+    .m10{        
+        width:10%;                
+        }
+    .m15{        
+        width:15%;                
+        }
+    .m20{        
+        width:20%;                
+        }            
+    .m30{        
+        width:30%;                
+        }
+    .m40{        
+        width:40%;                
+        }
+    .m50{        
+        width:50%;                
+        }            
+    
+        
+    .m60{        
+        width:60%;                
+        }
+    .m70{        
+        width:70%;                
+        }   
+
+    }
+    
+    
+
+
+
+    .noborder{
+        border:0;        
+        }
+
+   .tit_modal_match.subtitle{
+        /* bootstrap 속성이 상위
+        font-weight:400;
+        font-size:1rem;
+        */
+        margin-bottom: 0;
+        }   
+
+    .subtitlebold{
+        
+        font-weight:700;
+                
+        }   
+    
+    a.addbtn{
+        
+        background:#1379cd;
+        text-align:center;
+        border-radius: 5px;
+        white-space: nowrap;
+        margin-right: 0%;
+        float:right;       
+    }
+    a.delbtn{
+        
+        background:#8b8b8b;
+        text-align:center;
+        border-radius: 5px;
+        white-space: nowrap;
+        margin-right: 0%;
+        float:right;       
+    }
+    .clear{
+        
+        clear: both;
+    }
+
+    .floatr{
+        
+        float: right;
+    }
+
+
+    
+
+
+
+	form canvas {
+		height: 100% !important;
+		width: 100% !important;
+	}
+
+	#imageList .estimate_photo .estimate_image_click_bg p {
+		margin-top: -9rem !important;
+	}
+
+	#imageList .estimate_photo .estimate_image_del_bg a {
+
+		margin-top: -1rem !important;
+		margin-right: -2rem !important;
+	}
+
+	/*woojin*/
+	.customer a {
+		display: inherit;
+		height: inherit !important;
+		line-height: inherit !important;
+		text-align: left;
+	}
+
+	.customer .row a {
+		display: block;
+		height: 40px !important;
+		line-height: 40px !important;
+		text-align: center;
+		border-radius: 5px;
+		margin-top: 20px;
+	}
+
+
+    .border{
+        border:1px solid #99999941;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .pt1{
+        padding-top: 1rem;
+    }
+    .pt5{
+        padding-top: 4rem;
+    }
+    .mt1{margin-top: 1rem;
+    }
+    .mt5{margin-top: 5rem;
+    }
+    .mt10{margin-top: 10rem;
+    }
+
+    input {border-color: black; border: 2px solid rgba(138, 166, 185, 0.74) !important;}
+    select {border-color: black; border: 2px solid rgba(138, 166, 185, 0.74) !important;}
+    textarea {border-color: black; border: 2px solid rgba(138, 166, 185, 0.74) !important;}
+/*
+@media(max-width:1024px){
+.mypage_btn_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 4% 5%;
+    border-bottom: 1px solid #ddd;
+    color: #666 !important;
+    font-family: nanumsquare;
+    background: #fff;
+}
+
+.back_btn{
+    position: absolute;
+}
+
+.back_btn > img{
+    width: 25px;
+}
+
+.title{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.sub_title{
+    display: none;
+}
+}
+*/

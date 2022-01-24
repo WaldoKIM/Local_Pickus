@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../data/designImages/TITLE_BOOKMARK_1524645429.png" rel="apple-touch-icon" />
+    <link rel="shortcut icon" href="../data/designImages/TITLE_ICO_1524645418.png" type="image/x-icon">
+    <title>monomall</title>
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="description" content="monomall">
+    <meta name="keywords" content="monomall">
+    <!--상단인트로 베너-->
+    <link rel='stylesheet' href='css/new/settings.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/new/animations.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/new/style.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="css/calendar_add_poll.css">
+    <link rel="shortcut icon" href="" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style_main.css">
+    <!-- 게시판 첨부파일 속성 -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>  <!-- 레이어 드래그 -->
+    <!-- 우측레이어 최근본 상품 -->
+    <script src="js/Rightlayer-Slide.js"></script>
+    <script src="js/right_slide.js"></script>
+    <!-- 상단 제품검색 팝업 //**모바일용~//-->
+    <script src="js/popup.js"></script>
+    <!--브랜트코너 카테고리 팝업 -->
+    <script src="js/bland_popuplayer.js"></script>
+    <script src="js/form_file.js"></script>
+    <!-- 게시판 첨부파일 속성 -->
+    <!--제품미리보기 팝업창-->
+    <link rel="stylesheet" href="css/popup/fancybox.css" type="text/css" media="all" />
+    <script type="text/javascript" src="./js/popup/global.js"></script>
+    <script type="text/javascript" src="./js/popup/jquery.fancybox.js"></script>
+    <!--제품미리보기 팝업창-->
+    <!-- istope소스코드 -->
+    <script type="text/javascript" src="js/istope_main.js"></script>
+    <script type="text/javascript" src="js/istope.js"></script>
+    <!-- //istope소스코드 -->
+    <!--제품리스트 각 항목들의 좌우 화살표 버튼들 css-->
+    <link rel="stylesheet" type="text/css" href="css/carousel.css" media="all" />
+    <!--제품리스트 해상도별 레이아웃설정영역 css-->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
+    <!--제품확대 모달팝업창 css-->
+    <link rel="stylesheet" type="text/css" href="css/cloud-lightbox-zoom.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" media="all" />
+    <!-- 슬라이드속성-->
+    <link rel="stylesheet" type="text/css" href="css/tm_flexslider.css" media="all" />
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/boardmenu.js"></script>
+    <!--상단로테이트-->
+    <script type="text/javascript" src="js/main/tm_jquery.flexslider.min.js"></script>
+    <!--제품-->
+    <script type="text/javascript" src="js/main/megnor.min.js"></script>
+    <script type="text/javascript" src="js/main/jquery.selectbox-0.2.min.js"></script>
+    <script type="text/javascript" src="js/main/carousel.min.js"></script>
+    <script type="text/javascript" src="js/main/jstree.min.js"></script>
+    <script type="text/javascript" src="js/main/jquery.colorbox.min.js"></script><!--상품상세 썸네일이미지-->
+    <!--하단배너들-->
+    <script type="text/javascript" src="js/main/custom.js"></script>
+    <script type='text/javascript' src='js/new/jquery.themepunch.tools.min.js'></script>
+    <script type='text/javascript' src='js/new/jquery.themepunch.revolution.min.js'></script>
+    <script type='text/javascript' src='js/new/bootstrap.min.js'></script>
+    <script type='text/javascript' src='js/new/jquery.appear.js'></script>
+    <script type='text/javascript' src='js/new/plugins.js'></script>
+    <script type='text/javascript' src='js/new/main.js'></script>
+    <script type='text/javascript' src='js/new/owl.carousel.min.js'></script>
+    <script type='text/javascript' src='js/new/jquery.isotope.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/main/cloud-lightbox-zoom.css" media="all" /><!--상품상세 썸네일이미지-->
+    <script type="text/javascript" src="js/main/cloud-zoom.1.0.2.js"></script><!--상품상세 썸네일이미지-->
+    <!-- 모바일용 페이지 슬라이드 탭메뉴 -->
+    <script src="js/jquery.lbslider.js"></script>
+    <script type="text/javascript" language="javascript" src="../cheditor/cheditor.js"></script>
+    <script type="text/javascript" language="javascript" src="../lib/flash.js"></script>
+    <LINK REL="stylesheet" HREF="../lib/oolim_button_style.css" TYPE="TEXT/CSS">
+    <!--회사전경스크립트, css -->
+    <link rel="stylesheet" href="css/galleria.classic.css">
+    <script src="../lib/galleria-1.4.2.min.js"></script>
+    <!-- 이미지 레이어 새창 -->
+    <script type="text/javascript" src="../lib/jquery.lightbox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //등록할 로고 이미지로 로고영역 max설정  
+            $(".mobile_header .top_area h1 img").each(function () {
+                $(this).load(function () {
+                    var imgWidth = this.naturalWidth;
+                    $('.mobile_header .top_area h1').css({ 'max-width': imgWidth})
+                });   
+            });
+        });
+            
+    </script>
+    <style type="text/css">
+        .mobile_header{width:100%;display:inline-block;position:relative;text-align:center}
+        .mobile_header *{box-sizing:border-box}
+        .mobile_header .top_area{width:90%;display:inline-block;position:relative;text-align:center}
+        .mobile_header .top_area h1{width:25.5%;display:inline-block;max-width:200px}
+        .mobile_header .top_area h1 img{width:100%}
+        .mobile_header .top_area h1 a{display:block}
+        .mobile_header .top_area a.menu_btn{width:7.8%;font-size:2em;position:absolute;left:0;top:20%;max-width:50px}
+        .mobile_header .top_area div.right_area{width:15.6%;position:absolute;right:0;top:20%;max-width:100px}
+        .mobile_header .top_area a.cart_btn{width:45%;height:100%;max-width:50px;position:relative;display:inline-block;vertical-align:middle}
+        .mobile_header .top_area a.cart_btn img{vertical-align:top;width:100%}
+        .mobile_header .top_area a.cart_btn span{position:absolute;right:-10px;top:-5px;background:#3684c6;border:1px solid #3684c6;color:#fff;width:26px;height:26px;border-radius:100%;line-height:26px}
+        .mobile_header .top_area a.search_btn{width:45%;max-width:50px;font-size:2em;color:#3684c6;display:inline-block;vertical-align:middle}
+        .mobile_header .top_search{width:100%;margin-top :25px; border:4px solid #3684c6;border-radius:40px;display:inline-block}
+        .mobile_header .top_search input{width:90%;font-size:1.2em;padding:15px 2%;outline:none;display:inline-block;vertical-align:middle;border:none;background-color:transparent}
+        .mobile_header .top_search a{font-size:2em;width:5%;display:inline-block;vertical-align:middle;color:#3684c6;position:absolute;right:0}
+    </style>
+</head>
+
+<body>
+    <div id="Mobile-Header">
+        <header class="mobile_header">
+            <div class="top_area">
+                <h1><a href="#"><img src="../data/designImages/TITLE_LOGO_1524645227.png" /></a></h1>
+                <a href="#" class="menu_btn"><i class="fas fa-bars"></i></a>
+                <div class="right_area">
+                    <a href="#" class="search_btn"><i class="fas fa-search"></i></a>
+                    <a href="#" class="cart_btn">
+                        <img src="images/m_cart_icon.png" />
+                        <span class="count">3</span>
+                    </a>
+                </div>
+                <div class="top_search">
+                    <input type="text" />
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <!--Menu-->
+            <ul class="m_menu">
+
+            </ul>
+            <!--//Menu-->
+        </header>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+.ri-modal-cover {
+	background-color: rgba(185, 185, 185, 0.9);
+}
+.ri-modal-dialog {
+	padding: 12px;
+	border-radius: 0;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+	overflow: hidden;
+	box-sizing: content-box;
+}
+.ri-modal-dialog * {
+	box-sizing: content-box;
+}
+.ri-modal-inner {
+    border-radius: 0;
+	overflow: hidden;
+	bottom: 12px;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	left: 12px;
+}
+.ri-modal-header {
+	height: 40px;
+	background-color: #5F82E5;
+	position: relative;
+	border-radius: 0 0 0 0;
+}
+.ri-modal-draggable .ri-modal-header {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+}
+.ri-modal-dialog h1.ri-modal-title {
+	color: #fff;
+	padding: 8px 0 0 20px;
+	margin: 0;
+	font-size: 15px;
+	position: absolute;
+	height: 34px;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 34px;
+}
+.ri-modal-draggable h1.ri-modal-title {
+	cursor: move;
+}
+.ri-modal-close {
+	display: block;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	width: 26px;
+	height: 26px;
+	text-decoration: none;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.6);
+	border-radius: 13px;
+	font: 24px/26px "Times New Roman", Times, serif;
+	text-align: center;
+	background-color: transparent;
+}
+.ri-modal-close:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.ri-modal-dialog .ri-modal-content {
+	background-color: #fff;
+	border: none;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ri-modal-content.ri-modal-element,
+.ri-modal-content.ri-modal-text,
+.ri-modal-content.ri-modal-ajax {
+	padding: 20px;
+	overflow: auto;
+}
+.ri-modal-loading .ri-modal-content {
+	background-image: url(/assets/img/loader-responsive-dark.gif);
+	background-position: 50% 50%;
+	background-size: 64px;
+	background-repeat: no-repeat;
+}
+.ri-modal-message {
+	background-color: #333;
+	border-radius: 8px;
+	background-image: url(/assets/img/loader-responsive-light.gif);
+	background-position: 20px 20px;
+	background-size: 32px;
+	background-repeat: no-repeat;
+	padding: 20px 20px 20px 72px;
+	min-height: 32px;
+	font: 15px/32px Helvetica,Arial,sans-serif;
+	color: #eee;
+}
+.ri-modal-message .ri-modal-content {
+    padding: 0;
+	display: inline-block;
+	line-height: 115%;
+	overflow: visible;
+}

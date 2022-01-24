@@ -1,0 +1,59 @@
+.box-modal {
+	position: relative;
+	width: 500px;
+	padding: 16px 20px 15px 5px;
+	background: #fff;
+	color: #333;
+	font: 14px/18px;
+	border-radius: 0px;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+}
+
+/*모바일영역 사이즈*/
+@media(max-width:480px){
+.box-modal{
+	position: relative;
+	width:90%;
+	height:300px;
+	overflow-y: scroll;
+	padding: 16px 5px 0 0; 
+	margin-left:10px; 
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	}
+}
+
+@media (min-width:481px) and (max-width:640px){/*mobile and mini- tablet*/
+.box-modal {
+position: relative;
+	width:90%;
+	eight:300px;
+	overflow-y: scroll;
+	padding: 16px 5px 0 0; 
+	margin-left:10px; 
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	}
+}
+
+@media (min-width:641px) and (max-width:959px){/*tablet ~pc*//*768(611)*/
+.box-modal {
+	position: relative;
+	width:90%;
+	overflow-y: scroll;
+	padding: 16px 5px 0 0;
+	margin-left:10px;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	}
+}
+
+
+.box-modal_close {
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	font-size: 20px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #999;
+	cursor: pointer;
+}
+.box-modal_close:hover { color: #666; }

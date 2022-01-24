@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* Tag Definition */
+* {box-sizing: border-box; margin:0; padding: 0;}
+html { height: 100%; -webkit-font-smoothing: antialiased; font-smoothing: antialiased;}
+h1,h2,h3,h4,h5,h6,input,button,textarea,select,table{ font-family:inherit; font-weight: 300; letter-spacing: -0.05em; }
+input,button,textarea,select,option{font-size:1em; font-weight: 300; color: inherit; }
+tr{position: relative;}
+input[type=file] {
+	width:100%;
+	font-size: 100px;
+	height:100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.0;
+	filter: alpha(opacity=0);
+}
+
+/*신규 파일 업로드 */
+.filebox {display:inline-block; margin-right: 10px;}
+
+
+.filebox label {
+  display: inline-block;
+  padding: .5em .75em;
+  color: white;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #1379cd;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+}
+
+.filebox input[type="file"] {  /* 파일 필드 숨기기 */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+/*신규 파일 업로드 */
+
+.file_form{ display: block; height: 40px; line-height: 40px; text-align: center; cursor: pointer; border-radius: 5px; background: #ddd; transition: all 0.3s ease 0s; }
+.file_form:hover{ background: #ccc; }
+input[type="reset"] {display: inline-block; cursor: pointer; margin: 0; padding: 0; border: 0; background: none; outline: 0; text-decoration: none; white-space: nowrap; vertical-align: middle;overflow: visible; font-size: 1em;}
+select{ display: inline-block; width:100%; height: 40px; border:1px solid #ececec !important; margin:0; padding: 0 10px; vertical-align: middle;  background: url('../../img/common/select-arrow.png') no-repeat 100% 50%, #fff; /* 화살표 아이콘 추가 */
+		border-radius: 5px; /* iOS 둥근모서리 제거 */
+		-moz-appearance: none; /* 화살표 없애기 for firefox*/
+		-ms-appearance: none;
+		-webkit-appearance: none; /* 화살표 없애기 for chrome*/
+		appearance: none;/* 화살표 없애기 공통*/
+}
+select::-ms-expand {
+ display: none;            /* 화살표 없애기 for IE10, 11*/
+}
+
+input { width: 100%; height: 40px; margin:0; padding: 0 10px; color: inherit; vertical-align: middle; border:1px solid #ececec !important; background:#fff; }
+input:focus, textarea:focus{ border:1px solid #1379cd; }
+input[type="checkbox"], input[type="radio"]{display: inherit; width: 1px; height: 1px; opacity: 0; }
+input[type="checkbox"] + i{ display: inline-block; width:20px; height: 20px; margin: 0; padding: 0; vertical-align: middle; border: 1px solid #aaa; border-radius: 5px; background: #fff; }
+input[type="checkbox"]:checked + i{ border: 1px solid #1379cd; }
+input[type="checkbox"]:checked + i:before{ content: "\e928"; font-family: 'xeicon'; display: block; text-align: center; line-height: 18px; color: #1379cd; }
+
+input[type="radio"] + i{ display: inline-block; width:20px; height: 20px; margin: 0; padding: 0; vertical-align: middle; border: 1px solid #aaa; border-radius: 20px; background: #fff; }
+input[type="radio"]:checked + i{ position: relative; border: 1px solid #15aae8; }
+input[type="radio"]:checked + i:before{ content: ""; position: absolute; top: 4px; left: 4px; display: block; background: #333; width: 10px; height: 10px; border-radius: 20px; }
+
+.form_order{width: 800px; margin: 0 auto; border:1px solid #ededed; background-color: #fff; border-radius: 15px; padding: 25px;} 
+.form_order .col-md-2{width: 25%;}
+
+@media screen and (max-width : 800px) {
+	.form_order{width: 100%;}
+	.form_order .col-md-2{width: 50%;}
+}
+
+.box:hover i{box-shadow: 0 0 0 3px #1379cd inset; }
+
+.box input[type="checkbox"] + i{ display: inline-block; width:100%; height: 40px; line-height: 40px; margin: 0; padding: 0; vertical-align: middle; border: 1px solid #ececec !important; border-radius: 5px; background: #fff; }
+.box input[type="checkbox"]:checked + i{ border: 1px solid #1379cd; background: #1379cd; }
+.box input[type="checkbox"]:checked + i:before{ display: none; }
+
+.box input[type="radio"] + i{display: inline-block;width: 100%;height: 40px;line-height: 40px;margin: 0;padding: 0;text-align: center;vertical-align: middle;border-radius: 5px;border: 1px solid #ececec !important;background: #fff;}
+.box input[type="radio"] + i img{max-height: 178px; display: block; margin: 0 auto;}
+.box input[type="radio"]:checked + i{ position: relative; background-color: #1379cd !important; color: #fff !important;}
+.box input[type="radio"]:checked + i:before{ display: none; }
+.box input[type="radio"]:checked + i p{font-weight: bold; margin: 0 !important; color: #fff;}
+
+.sell_single .section_view01 .box input[type="radio"] + i {display: inline-block; width:100%; height: auto; line-height: 40px; margin: 0; padding: 20px; text-align: center; vertical-align: middle; border-radius: 5px; border: 1px solid #ececec; background: #fff;}
+.sell_single .section_view01 .box input[type="radio"] + i{padding: 10px;}
+.img_area{display: none !important;}
+.section_view01 .box input[type="radio"] + i {display: inline-block; width:100%; height: auto; line-height: 40px; margin: 0; padding: 20px; text-align: center; vertical-align: middle; border-radius: 5px; border: 1px solid #ececec; background: #fff;}
+
+a h6{color: rgb(19, 121, 205);}
+
+label { display: block; margin-bottom: 0; font-size: 1em; font-weight:300; }
+textarea { width:100%; height:150px; padding: 10px; resize:none; vertical-align: middle; border:1px solid #ececec !important; border-radius: 5px; }
+* html body { height: 100%; }
+:root body { /* font-size:1em; */ }
+table, pre { font-size: 1em; } /* DOCTYPE 없으면 속성 상속 안됨 */
+table, td, th { table-layout:fixed; border-collapse: collapse; text-indent:0; width: 100%; border-spacing:0; }
+a:link, a:visited, a:hover,a:focus,a:active { text-decoration:none; color:inherit; }
+img,fieldset,iframe{ border:0 none; vertical-align: middle; }
+img{ width: 100%; }
+ul, ul li, ol, ol li { list-style:none; padding:0; margin:0; }
+ul:after { display:block; height:0; clear:both; float:none; content:""; }
+dl, dt, dd { padding:0; margin:0; }
+th { font-weight: 800; }
+p { margin:0; padding:0; }
+strong { font-weight: 800; }
+em { color: #f75; } em em { color: #c09; }
+sup, sub { font-size: 0.85em; vertical-align: middle;}
+i, b { font-style: normal;}
+pre /* 형식 유지 컨텐츠 자동개행 */
+{
+white-space: pre-wrap; /* css3 */
+white-space: -moz-pre-wrap; /* Mozilla, since1999 */
+white-space: -pre-wrap; /* Op4-6 */
+white-space: -o-pre-wrap; /* Op7 */
+word-wrap: break-word; /* IE 5.5+ */
+margin:0;
+font-family:'NanumGothic';
+font-weight: 400;
+line-height: inherit;
+}
+button, input[type="button"],input[type="submit"],input[type="image"] {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	border:0;
+	background:none;
+	cursor:pointer;
+	outline:0;
+	text-decoration:none;
+	white-space:nowrap;
+	vertical-align:inherit;
+	font-family:inherit;
+	overflow:visible;/* for IE7 */
+	font-size: 1em;
+}
+/* 사파리에서 버튼 라운드 금지 */
+input[type='submit'],input[type='button'],input[type='text'],input[type='password'],input[type='reset'],button,input[type='image'], input[type='number'] {
+	border-radius:5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+/*border-radius IE8*/
+.beh{behavior: url(/share/css/PIE.htc);}
+:focus{
+	outline-style: none;
+	-moz-outline-style:none;
+}
+input:placeholder{ color: #555; }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color:#555;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:#555;
+	opacity:1;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	/* IE 7 and olders */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	/* Netscape */
+	-moz-opacity: 1;
+	/* Safari 1.x */
+	-khtml-opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:#555;
+	opacity:1;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	/* IE 7 and olders */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	/* Netscape */
+	-moz-opacity: 1;
+	/* Safari 1.x */
+	-khtml-opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color:#555;
+}
+
+a:focus{ outline:0; outline-offset:0; }
+
+.rotate90 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.rotate180 {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.rotate270 {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}

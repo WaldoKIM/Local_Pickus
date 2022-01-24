@@ -1,0 +1,21 @@
+/* global */
+.g-hidden { display: none; }
+.g-line { zoom: 1; }
+.g-line:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* layouts 전체크기 */
+.l-container { width: 100%; padding: 0 40px; margin: 0 auto; }
+
+/* semanticwp */
+.b-semanticwp {
+	display: block;
+	text-align: center;
+	height: 80px;
+	background: #414142 url() no-repeat 50% 50%;
+}
+.b-semanticwp:hover { background-color: #4c4c4e; }
+
+/* header */
+.b-header { padding-bottom: 12px; }
+.b-header .title { padding-top: 32px; font-size: 36px; line-height: 40px; }
+.b-header .slogan { padding-top: 6px; font-size: 16px; line-height: 20px; color: #888; }

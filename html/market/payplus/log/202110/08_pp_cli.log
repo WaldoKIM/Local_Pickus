@@ -1,0 +1,100 @@
+1008-093303.814 - 13569 - SR9C7A89X3F0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[CWEDT1633653141]+log_level=[3]+opt=[0]
+1008-093303.818 - 13569 - SR9C7A89X3F0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-093303.829 - 13569 - SR9C7A89X3F0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-093304.167 - 13569 - SR9C7A89X3F0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-093304.168 - 13569 - SR9C7A89X3F0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A89X3F0RtPcpay_method=PACAorder_no=CWEDT1633653141card_no=9490940000009051mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=CWEDT1633653141cert_no=21911129991225tno=21911129991225amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008093303van_apptime=20211008093303app_no=30021194bizx_numb=00091378177quota=00noinf=Npg_txid=1008093303MOC6CDBGPC300000000010000030021194res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-112908.877 - 23352 - SR9C7A8BT8FmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[0]
+1008-112908.881 - 23352 - SR9C7A8BT8FmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-112908.891 - 23352 - SR9C7A8BT8FmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-112908.915 - 23352 - SR9C7A8BT8FmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-112908.915 - 23352 - SR9C7A8BT8FmoqMp - MSG : TX_ENDED - res=[res_cd=8072res_msg=∆˜∏Àø°∑Ø(∫Ø∞Ê|∞≈∑°π¯»£)res_en_msg=trace_no=SR9C7A8BT8FmoqMp]
+1008-113759.857 - 24210 - SR9C7A8BbxFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[0]
+1008-113759.861 - 24210 - SR9C7A8BbxFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-113759.871 - 24210 - SR9C7A8BbxFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-113800.496 - 24210 - SR9C7A8BbxFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-113800.496 - 24210 - SR9C7A8BbxFmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8BbxFmoqMppay_method=PACAorder_no=CWEDT1633653141card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=CWEDT1633653141tno=21911129991225amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008113800van_apptime=20211008113800canc_time=20211008113800app_no=30021194bizx_numb=00091378177quota=00noinf=Npg_txid=1008113800MOC6CDBGPC300000000010000030021194]
+1008-115433.273 - 25463 - SR9C7A8BsXF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[XKIUT1633661643]+log_level=[3]+opt=[0]
+1008-115433.278 - 25463 - SR9C7A8BsXF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-115433.288 - 25463 - SR9C7A8BsXF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-115433.739 - 25463 - SR9C7A8BsXF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-115433.740 - 25463 - SR9C7A8BsXF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8BsXF0RtPcpay_method=PACAorder_no=XKIUT1633661643card_no=9490940000009047mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=XKIUT1633661643cert_no=21911132930695tno=21911132930695amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008115433van_apptime=20211008115433app_no=30021206bizx_numb=00091378177quota=00noinf=Npg_txid=1008115433MOC6EDBLRALQ0000000010000030021206res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-115444.974 - 25474 - SR9C7A8BsiFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-115444.977 - 25474 - SR9C7A8BsiFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-115444.988 - 25474 - SR9C7A8BsiFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-115445.412 - 25474 - SR9C7A8BsiFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-115445.412 - 25474 - SR9C7A8BsiFmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=Ï†ïÏÉÅÏ≤òÎ¶¨res_en_msg=processing completedtrace_no=SR9C7A8BsiFmoqMppay_method=PACAorder_no=XKIUT1633661643card_cd=CCKMcard_name=KBÍµ≠ÎØºÏπ¥Îìúacqu_cd=CCKMacqu_name=KBÍµ≠ÎØºÏπ¥Îìúmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=XKIUT1633661643tno=21911132930695amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008115445van_apptime=20211008115445canc_time=20211008115445app_no=30021206bizx_numb=00091378177quota=00noinf=Npg_txid=1008115445MOC6EDBLRALQ0000000010000030021206]
+1008-115517.534 - 25838 - SR9C7A8BtHFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-115517.543 - 25838 - SR9C7A8BtHFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-115517.554 - 25838 - SR9C7A8BtHFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-115517.680 - 25838 - SR9C7A8BtHFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-115517.680 - 25838 - SR9C7A8BtHFmoqMp - MSG : TX_ENDED - res=[res_cd=8133res_msg=Í∏∞Ï∑®ÏÜåÎêú Ïã†Ïö©Ïπ¥Îìú Í±∞Îûò Ï∑®ÏÜåÏöîÏ≤≠res_en_msg=Cannot process the request; the transaction cannot be cancelled.]
+1008-115602.114 - 25853 - SR9C7A8Bu2F0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[BFHDW1633661734]+log_level=[3]+opt=[0]
+1008-115602.118 - 25853 - SR9C7A8Bu2F0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-115602.128 - 25853 - SR9C7A8Bu2F0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-115602.376 - 25853 - SR9C7A8Bu2F0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-115602.377 - 25853 - SR9C7A8Bu2F0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8Bu2F0RtPcpay_method=PACAorder_no=BFHDW1633661734card_no=9490940000005077mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=BFHDW1633661734cert_no=21911132962782tno=21911132962782amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008115602van_apptime=20211008115602app_no=30021217bizx_numb=00091378177quota=00noinf=Npg_txid=1008115602MOC6CDBLT75C0000000010000030021217res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-115608.053 - 25861 - SR9C7A8Bu8FmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-115608.061 - 25861 - SR9C7A8Bu8FmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-115608.071 - 25861 - SR9C7A8Bu8FmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-115608.693 - 25861 - SR9C7A8Bu8FmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-115608.694 - 25861 - SR9C7A8Bu8FmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=Ï†ïÏÉÅÏ≤òÎ¶¨res_en_msg=processing completedtrace_no=SR9C7A8Bu8FmoqMppay_method=PACAorder_no=BFHDW1633661734card_cd=CCKMcard_name=KBÍµ≠ÎØºÏπ¥Îìúacqu_cd=CCKMacqu_name=KBÍµ≠ÎØºÏπ¥Îìúmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=BFHDW1633661734tno=21911132962782amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008115608van_apptime=20211008115608canc_time=20211008115608app_no=30021217bizx_numb=00091378177quota=00noinf=Npg_txid=1008115608MOC6CDBLT75C0000000010000030021217]
+1008-120057.832 - 26279 - SR9C7A8C0vF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[XIAPY1633662023]+log_level=[3]+opt=[0]
+1008-120057.836 - 26279 - SR9C7A8C0vF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-120057.846 - 26279 - SR9C7A8C0vF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-120058.086 - 26279 - SR9C7A8C0vF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-120058.086 - 26279 - SR9C7A8C0vF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8C0vF0RtPcpay_method=PACAorder_no=XIAPY1633662023card_no=9490940000003043mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=XIAPY1633662023cert_no=21911133083073tno=21911133083073amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008120057van_apptime=20211008120057app_no=30021228bizx_numb=00091378177quota=00noinf=Npg_txid=1008120057MOC6CABLZJBH0000000010000030021228res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-130403.784 - 31135 - SR9C7A8D43FmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-130403.789 - 31135 - SR9C7A8D43FmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-130403.799 - 31135 - SR9C7A8D43FmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-130404.521 - 31135 - SR9C7A8D43FmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-130404.521 - 31135 - SR9C7A8D43FmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=Ï†ïÏÉÅÏ≤òÎ¶¨res_en_msg=processing completedtrace_no=SR9C7A8D43FmoqMppay_method=PACAorder_no=XIAPY1633662023card_cd=CCKMcard_name=KBÍµ≠ÎØºÏπ¥Îìúacqu_cd=CCKMacqu_name=KBÍµ≠ÎØºÏπ¥Îìúmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=XIAPY1633662023tno=21911133083073amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008130404van_apptime=20211008130404canc_time=20211008130404app_no=30021228bizx_numb=00091378177quota=00noinf=Npg_txid=1008130404MOC6CABLZJBH0000000010000030021228]
+1008-130448.839 - 31143 - SR9C7A8D4mFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-130448.843 - 31143 - SR9C7A8D4mFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-130448.854 - 31143 - SR9C7A8D4mFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-130448.978 - 31143 - SR9C7A8D4mFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-130448.979 - 31143 - SR9C7A8D4mFmoqMp - MSG : TX_ENDED - res=[res_cd=8133res_msg=Í∏∞Ï∑®ÏÜåÎêú Ïã†Ïö©Ïπ¥Îìú Í±∞Îûò Ï∑®ÏÜåÏöîÏ≤≠res_en_msg=Cannot process the request; the transaction cannot be cancelled.]
+1008-130516.532 - 31500 - SR9C7A8D5GFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-130516.536 - 31500 - SR9C7A8D5GFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-130516.546 - 31500 - SR9C7A8D5GFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-130516.672 - 31500 - SR9C7A8D5GFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-130516.672 - 31500 - SR9C7A8D5GFmoqMp - MSG : TX_ENDED - res=[res_cd=8133res_msg=Í∏∞Ï∑®ÏÜåÎêú Ïã†Ïö©Ïπ¥Îìú Í±∞Îûò Ï∑®ÏÜåÏöîÏ≤≠res_en_msg=Cannot process the request; the transaction cannot be cancelled.]
+1008-130612.332 - 31517 - SR9C7A8D6CF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[XHNJR1633665936]+log_level=[3]+opt=[0]
+1008-130612.336 - 31517 - SR9C7A8D6CF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-130612.346 - 31517 - SR9C7A8D6CF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-130612.586 - 31517 - SR9C7A8D6CF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-130612.586 - 31517 - SR9C7A8D6CF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8D6CF0RtPcpay_method=PACAorder_no=XHNJR1633665936card_no=9490940000007070mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=XHNJR1633665936cert_no=21911134669056tno=21911134669056amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008130612van_apptime=20211008130612app_no=30021240bizx_numb=00091378177quota=00noinf=Npg_txid=1008130612MOC6CHBOBFRO0000000010000030021240res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-130622.535 - 31531 - SR9C7A8D6MFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-130622.546 - 31531 - SR9C7A8D6MFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-130622.556 - 31531 - SR9C7A8D6MFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-130623.084 - 31531 - SR9C7A8D6MFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-130623.085 - 31531 - SR9C7A8D6MFmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=Ï†ïÏÉÅÏ≤òÎ¶¨res_en_msg=processing completedtrace_no=SR9C7A8D6MFmoqMppay_method=PACAorder_no=XHNJR1633665936card_cd=CCKMcard_name=KBÍµ≠ÎØºÏπ¥Îìúacqu_cd=CCKMacqu_name=KBÍµ≠ÎØºÏπ¥Îìúmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=XHNJR1633665936tno=21911134669056amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008130622van_apptime=20211008130622canc_time=20211008130622app_no=30021240bizx_numb=00091378177quota=00noinf=Npg_txid=1008130622MOC6CHBOBFRO0000000010000030021240]
+1008-130725.638 - 31559 - SR9C7A8D7PF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[ZWDPU1633666008]+log_level=[3]+opt=[0]
+1008-130725.643 - 31559 - SR9C7A8D7PF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-130725.653 - 31559 - SR9C7A8D7PF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-130725.889 - 31559 - SR9C7A8D7PF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-130725.889 - 31559 - SR9C7A8D7PF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8D7PF0RtPcpay_method=PACAorder_no=ZWDPU1633666008card_no=9490940000002074mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=ZWDPU1633666008cert_no=21911134695635tno=21911134695635amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008130725van_apptime=20211008130725app_no=30021251bizx_numb=00091378177quota=00noinf=Npg_txid=1008130725MOC6FHBOD0BW0000000010000030021251res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-131341.365 - 32055 - SR9C7A8DDfFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-131341.370 - 32055 - SR9C7A8DDfFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-131341.380 - 32055 - SR9C7A8DDfFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-131341.901 - 32055 - SR9C7A8DDfFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-131341.901 - 32055 - SR9C7A8DDfFmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=Ï†ïÏÉÅÏ≤òÎ¶¨res_en_msg=processing completedtrace_no=SR9C7A8DDfFmoqMppay_method=PACAorder_no=ZWDPU1633666008card_cd=CCKMcard_name=KBÍµ≠ÎØºÏπ¥Îìúacqu_cd=CCKMacqu_name=KBÍµ≠ÎØºÏπ¥Îìúmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=ZWDPU1633666008tno=21911134695635amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008131341van_apptime=20211008131341canc_time=20211008131341app_no=30021251bizx_numb=00091378177quota=00noinf=Npg_txid=1008131341MOC6FHBOD0BW0000000010000030021251]
+1008-132803.158 -   775 - SR9C7A8DS3F0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[GNTTM1633667249]+log_level=[3]+opt=[0]
+1008-132803.162 -   775 - SR9C7A8DS3F0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-132803.172 -   775 - SR9C7A8DS3F0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-132803.604 -   775 - SR9C7A8DS3F0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-132803.604 -   775 - SR9C7A8DS3F0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8DS3F0RtPcpay_method=PACAorder_no=GNTTM1633667249card_no=9490940000005002mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=GNTTM1633667249cert_no=21911135185719tno=21911135185719amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008132803van_apptime=20211008132803app_no=30021262bizx_numb=00091378177quota=00noinf=Npg_txid=1008132803MOC6DBBP3J790000000010000030021262res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-132819.650 -   791 - SR9C7A8DSJFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-132819.653 -   791 - SR9C7A8DSJFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-132819.663 -   791 - SR9C7A8DSJFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-132819.987 -   791 - SR9C7A8DSJFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-132819.987 -   791 - SR9C7A8DSJFmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=Ï†ïÏÉÅÏ≤òÎ¶¨res_en_msg=processing completedtrace_no=SR9C7A8DSJFmoqMppay_method=PACAorder_no=GNTTM1633667249card_cd=CCKMcard_name=KBÍµ≠ÎØºÏπ¥Îìúacqu_cd=CCKMacqu_name=KBÍµ≠ÎØºÏπ¥Îìúmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=GNTTM1633667249tno=21911135185719amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008132819van_apptime=20211008132819canc_time=20211008132819app_no=30021262bizx_numb=00091378177quota=00noinf=Npg_txid=1008132819MOC6DBBP3J790000000010000030021262]
+1008-133623.813 -  1653 - SR9C7A8DaNF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[LLNPB1633667753]+log_level=[3]+opt=[0]
+1008-133623.818 -  1653 - SR9C7A8DaNF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1008-133623.828 -  1653 - SR9C7A8DaNF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-133624.171 -  1653 - SR9C7A8DaNF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-133624.171 -  1653 - SR9C7A8DaNF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=¡§ªÛ√≥∏Æres_en_msg=processing completedtrace_no=SR9C7A8DaNF0RtPcpay_method=PACAorder_no=LLNPB1633667753card_no=9490940000005021mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=LLNPB1633667753cert_no=21911135388918tno=21911135388918amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211008133623van_apptime=20211008133623app_no=30021273bizx_numb=00091378177quota=00noinf=Npg_txid=1008133623MOC6EEBPE9IN0000000010000030021273res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB ±ππŒƒ´µÂisp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB±ππŒƒ´µÂacqu_cd=CCKMacqu_name=KB±ππŒƒ´µÂ]
+1008-133637.092 -  1663 - SR9C7A8DabFmoqMp - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[1]
+1008-133637.100 -  1663 - SR9C7A8DabFmoqMp - MSG : PG_SERVER_CONN__SUCC
+1008-133637.110 -  1663 - SR9C7A8DabFmoqMp - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1008-133637.429 -  1663 - SR9C7A8DabFmoqMp - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1008-133637.429 -  1663 - SR9C7A8DabFmoqMp - MSG : TX_ENDED - res=[res_cd=0000res_msg=Ï†ïÏÉÅÏ≤òÎ¶¨res_en_msg=processing completedtrace_no=SR9C7A8DabFmoqMppay_method=PACAorder_no=LLNPB1633667753card_cd=CCKMcard_name=KBÍµ≠ÎØºÏπ¥Îìúacqu_cd=CCKMacqu_name=KBÍµ≠ÎØºÏπ¥Îìúmcht_taxno=1138521083mall_taxno=2913900208ca_order_id=LLNPB1633667753tno=21911135388918amount=1000card_mny=1000coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20211008133637van_apptime=20211008133637canc_time=20211008133637app_no=30021273bizx_numb=00091378177quota=00noinf=Npg_txid=1008133637MOC6EEBPE9IN0000000010000030021273]

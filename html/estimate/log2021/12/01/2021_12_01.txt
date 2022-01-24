@@ -1,0 +1,5 @@
+2021_12_01_10:16:11 | 검색모델명 : T1407W8 | 검색된 정보 : [{"_id":{},"idx":"2924","category2":"가전","category3":"세탁기","brand":"LG전자","year":"2014년","model_name":"T1407W8","model_code":"T1407W8","avgPrice":"80000","count":"2","maxPrice":"50000","minPrice":"30000"}]
+2021_12_01_10:16:36 | 검색모델명 : RT38FAAADWW | 검색된 정보 : [{"_id":{},"idx":"2481","category2":"가전","category3":"냉장고","brand":"삼성전자","year":"2014년","model_name":"rt38faaadww","model_code":"rt38faaadww","avgPrice":"410000","count":"6","maxPrice":"150000","minPrice":"30000"}]
+2021_12_01_21:31:28 | 검색모델명 : WF19J9800KW | 검색된 정보 : [{"_id":{},"idx":"1953","category2":"가전","category3":"세탁기","brand":"삼성전자","year":"2016년","model_name":"WF19J9800KW","model_code":"WF19J9800KW","avgPrice":"370000","count":"2","maxPrice":"250000","minPrice":"120000"}]
+2021_12_01_21:31:57 | 검색모델명 : WF19J9800KW | 검색된 정보 : [{"_id":{},"idx":"1953","category2":"가전","category3":"세탁기","brand":"삼성전자","year":"2016년","model_name":"WF19J9800KW","model_code":"WF19J9800KW","avgPrice":"370000","count":"2","maxPrice":"250000","minPrice":"120000"}]
+2021_12_01_21:38:48 | 검색모델명 : SRS75HMGGG | 검색된 정보 : []

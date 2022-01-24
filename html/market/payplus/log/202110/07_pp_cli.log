@@ -1,0 +1,165 @@
+1007-102400.785 -   849 - SR9C7A7AO0F0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[TLKJB1633567416]+log_level=[3]+opt=[0]
+1007-102400.793 -   849 - SR9C7A7AO0F0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-102400.803 -   849 - SR9C7A7AO0F0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-102401.346 -   849 - SR9C7A7AO0F0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-102401.347 -   849 - SR9C7A7AO0F0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7AO0F0RtPcpay_method=PACAorder_no=TLKJB1633567416card_no=9490940000005037mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=TLKJB1633567416cert_no=21530110662746tno=21530110662746amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007102400van_apptime=20211007102400app_no=30021004bizx_numb=00091378177quota=00noinf=Npg_txid=1007102400MOC6CAA330700000000010000030021004res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-102525.128 -  1334 - SR9C7A7APPF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[TLKJB1633567416]+log_level=[3]+opt=[0]
+1007-102525.132 -  1334 - SR9C7A7APPF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-102525.142 -  1334 - SR9C7A7APPF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-102525.170 -  1334 - SR9C7A7APPF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-102525.170 -  1334 - SR9C7A7APPF0RtPc - MSG : TX_ENDED - res=[res_cd=8094res_msg=중복 거래요청, 처음부터 재시도 요망res_en_msg=Repeated payment request. Please try again from the beginning.]
+1007-102610.052 -  1362 - SR9C7A7AQAF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[XAWUC1633569941]+log_level=[3]+opt=[0]
+1007-102610.056 -  1362 - SR9C7A7AQAF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-102610.066 -  1362 - SR9C7A7AQAF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-102610.421 -  1362 - SR9C7A7AQAF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-102610.421 -  1362 - SR9C7A7AQAF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7AQAF0RtPcpay_method=PACAorder_no=XAWUC1633569941card_no=9490940000008086mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=XAWUC1633569941cert_no=21530110694851tno=21530110694851amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007102610van_apptime=20211007102610app_no=30021015bizx_numb=00091378177quota=00noinf=Npg_txid=1007102610MOC6CGA35S0T0000000010000030021015res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-102925.818 -  1477 - SR9C7A7ATPF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[KCCQJ1633570136]+log_level=[3]+opt=[0]
+1007-102925.823 -  1477 - SR9C7A7ATPF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-102925.833 -  1477 - SR9C7A7ATPF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-102926.069 -  1477 - SR9C7A7ATPF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-102926.069 -  1477 - SR9C7A7ATPF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7ATPF0RtPcpay_method=PACAorder_no=KCCQJ1633570136card_no=9490940000008036mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=KCCQJ1633570136cert_no=21530110743315tno=21530110743315amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007102925van_apptime=20211007102925app_no=30021026bizx_numb=00091378177quota=00noinf=Npg_txid=1007102925MOC6DHA39YZL0000000010000030021026res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-103611.246 -  2363 - SR9C7A7AaBF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[WPZNO1633570457]+log_level=[3]+opt=[0]
+1007-103611.250 -  2363 - SR9C7A7AaBF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-103611.261 -  2363 - SR9C7A7AaBF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-103611.499 -  2363 - SR9C7A7AaBF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-103611.499 -  2363 - SR9C7A7AaBF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7AaBF0RtPcpay_method=PACAorder_no=WPZNO1633570457card_no=9490940000005079mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=WPZNO1633570457cert_no=21530110847453tno=21530110847453amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007103611van_apptime=20211007103611app_no=30021037bizx_numb=00091378177quota=00noinf=Npg_txid=1007103611MOC6EBA3INTJ0000000010000030021037res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-104504.723 -  3017 - SR9C7A7Aj4F0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[OYRXU1633571054]+log_level=[3]+opt=[0]
+1007-104504.727 -  3017 - SR9C7A7Aj4F0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-104504.737 -  3017 - SR9C7A7Aj4F0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-104504.979 -  3017 - SR9C7A7Aj4F0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-104504.980 -  3017 - SR9C7A7Aj4F0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7Aj4F0RtPcpay_method=PACAorder_no=OYRXU1633571054card_no=9490940000000005mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=OYRXU1633571054cert_no=21530110991851tno=21530110991851amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007104504van_apptime=20211007104504app_no=30021048bizx_numb=00091378177quota=00noinf=Npg_txid=1007104504MOC6CIA3U3GF0000000010000030021048res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-111538.743 -  5576 - SR9C7A7BFcF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[DBGDB1633572903]+log_level=[3]+opt=[0]
+1007-111538.751 -  5576 - SR9C7A7BFcF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-111538.761 -  5576 - SR9C7A7BFcF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-111539.305 -  5576 - SR9C7A7BFcF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-111539.305 -  5576 - SR9C7A7BFcF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7BFcF0RtPcpay_method=PACAorder_no=DBGDB1633572903card_no=9490940000003047mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=DBGDB1633572903cert_no=21530111617202tno=21530111617202amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007111538van_apptime=20211007111538app_no=30021059bizx_numb=00091378177quota=00noinf=Npg_txid=1007111538MOC6EJA4XELI0000000010000030021059res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-111734.891 -  5658 - SR9C7A7BHYF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[DBGDB1633572903]+log_level=[3]+opt=[0]
+1007-111734.905 -  5658 - SR9C7A7BHYF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-111734.916 -  5658 - SR9C7A7BHYF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-111734.938 -  5658 - SR9C7A7BHYF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-111734.938 -  5658 - SR9C7A7BHYF0RtPc - MSG : TX_ENDED - res=[res_cd=8094res_msg=중복 거래요청, 처음부터 재시도 요망res_en_msg=Repeated payment request. Please try again from the beginning.]
+1007-112119.046 -  6053 - SR9C7A7BLJF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[UDTMA1633573169]+log_level=[3]+opt=[0]
+1007-112119.050 -  6053 - SR9C7A7BLJF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-112119.060 -  6053 - SR9C7A7BLJF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-112119.295 -  6053 - SR9C7A7BLJF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-112119.296 -  6053 - SR9C7A7BLJF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7BLJF0RtPcpay_method=PACAorder_no=UDTMA1633573169card_no=9490940000005072mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=UDTMA1633573169cert_no=21530111752028tno=21530111752028amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007112119van_apptime=20211007112119app_no=30021060bizx_numb=00091378177quota=00noinf=Npg_txid=1007112119MOC6CEA54P600000000010000030021060res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-112134.581 -  6055 - SR9C7A7BLYF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[UDTMA1633573169]+log_level=[3]+opt=[0]
+1007-112134.585 -  6055 - SR9C7A7BLYF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-112134.595 -  6055 - SR9C7A7BLYF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-112134.615 -  6055 - SR9C7A7BLYF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-112134.615 -  6055 - SR9C7A7BLYF0RtPc - MSG : TX_ENDED - res=[res_cd=8094res_msg=중복 거래요청, 처음부터 재시도 요망res_en_msg=Repeated payment request. Please try again from the beginning.]
+1007-114351.032 -  7825 - SR9C7A7BhpF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[RXDAM1633574585]+log_level=[3]+opt=[0]
+1007-114351.037 -  7825 - SR9C7A7BhpF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-114351.047 -  7825 - SR9C7A7BhpF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-114351.386 -  7825 - SR9C7A7BhpF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-114351.386 -  7825 - SR9C7A7BhpF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7BhpF0RtPcpay_method=PACAorder_no=RXDAM1633574585card_no=9490940000006099mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=RXDAM1633574585cert_no=21530112226797tno=21530112226797amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007114351van_apptime=20211007114351app_no=30021071bizx_numb=00091378177quota=00noinf=Npg_txid=1007114351MOC6FAA5XODC0000000010000030021071res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-114525.831 -  8161 - SR9C7A7BjPF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[RXDAM1633574585]+log_level=[3]+opt=[0]
+1007-114525.836 -  8161 - SR9C7A7BjPF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-114525.846 -  8161 - SR9C7A7BjPF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-114525.881 -  8161 - SR9C7A7BjPF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-114525.881 -  8161 - SR9C7A7BjPF0RtPc - MSG : TX_ENDED - res=[res_cd=8094res_msg=중복 거래요청, 처음부터 재시도 요망res_en_msg=Repeated payment request. Please try again from the beginning.]
+1007-121513.832 - 10597 - SR9C7A7CFDF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[BCLML1633576431]+log_level=[3]+opt=[0]
+1007-121513.838 - 10597 - SR9C7A7CFDF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-121513.849 - 10597 - SR9C7A7CFDF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-121514.297 - 10597 - SR9C7A7CFDF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-121514.297 - 10597 - SR9C7A7CFDF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7CFDF0RtPcpay_method=PACAorder_no=BCLML1633576431card_no=9490940000002073mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=BCLML1633576431cert_no=21530112907883tno=21530112907883amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007121513van_apptime=20211007121513app_no=30021082bizx_numb=00091378177quota=00noinf=Npg_txid=1007121513MOC6DIA7218G0000000010000030021082res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-131725.785 - 15486 - SR9C7A7DHPF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[KIRJF1633580174]+log_level=[3]+opt=[0]
+1007-131725.790 - 15486 - SR9C7A7DHPF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-131725.800 - 15486 - SR9C7A7DHPF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-131726.233 - 15486 - SR9C7A7DHPF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-131726.234 - 15486 - SR9C7A7DHPF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7DHPF0RtPcpay_method=PACAorder_no=KIRJF1633580174card_no=9490940000005086mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=KIRJF1633580174cert_no=21530114229336tno=21530114229336amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007131725van_apptime=20211007131725app_no=30021093bizx_numb=00091378177quota=00noinf=Npg_txid=1007131725MOC6FIA9A0QK0000000010000030021093res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-132612.871 - 16227 - SR9C7A7DQCF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[0]
+1007-132612.875 - 16227 - SR9C7A7DQCF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-132612.885 - 16227 - SR9C7A7DQCF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-132612.904 - 16227 - SR9C7A7DQCF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-132612.904 - 16227 - SR9C7A7DQCF0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7DQCF0RtPc]
+1007-132621.720 - 16231 - SR9C7A7DQLF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[0]
+1007-132621.726 - 16231 - SR9C7A7DQLF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-132621.736 - 16231 - SR9C7A7DQLF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-132621.759 - 16231 - SR9C7A7DQLF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-132621.759 - 16231 - SR9C7A7DQLF0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7DQLF0RtPc]
+1007-132810.930 - 16305 - SR9C7A7DSAF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[DJLES1633580854]+log_level=[3]+opt=[0]
+1007-132810.941 - 16305 - SR9C7A7DSAF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-132810.951 - 16305 - SR9C7A7DSAF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-132811.388 - 16305 - SR9C7A7DSAF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-132811.388 - 16305 - SR9C7A7DSAF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7DSAF0RtPcpay_method=PACAorder_no=DJLES1633580854card_no=9490940000000086mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=DJLES1633580854cert_no=21530114450307tno=21530114450307amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007132810van_apptime=20211007132810app_no=30021105bizx_numb=00091378177quota=00noinf=Npg_txid=1007132810MOC6CBA9NUJI0000000010000030021105res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-132835.531 - 16315 - SR9C7A7DSZF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]+opt=[0]
+1007-132835.536 - 16315 - SR9C7A7DSZF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-132835.546 - 16315 - SR9C7A7DSZF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-132835.562 - 16315 - SR9C7A7DSZF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-132835.562 - 16315 - SR9C7A7DSZF0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7DSZF0RtPc]
+1007-133615.944 - 17101 - SR9C7A7DaFF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[JGRNN1633581334]+log_level=[3]+opt=[0]
+1007-133615.950 - 17101 - SR9C7A7DaFF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-133615.960 - 17101 - SR9C7A7DaFF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-133616.313 - 17101 - SR9C7A7DaFF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-133616.313 - 17101 - SR9C7A7DaFF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7DaFF0RtPcpay_method=PACAorder_no=JGRNN1633581334card_no=9490940000002017mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=JGRNN1633581334cert_no=21530114614701tno=21530114614701amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007133615van_apptime=20211007133615app_no=30021116bizx_numb=00091378177quota=00noinf=Npg_txid=1007133615MOC6EGA9Y8SA0000000010000030021116res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-143418.970 - 21712 - SR9C7A7EYIF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[SQOCA1633584203]+log_level=[3]+opt=[0]
+1007-143418.974 - 21712 - SR9C7A7EYIF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-143418.985 - 21712 - SR9C7A7EYIF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-143419.009 - 21712 - SR9C7A7EYIF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-143419.009 - 21712 - SR9C7A7EYIF0RtPc - MSG : TX_ENDED - res=[res_cd=8310res_msg=거래 유효 시간 경과. 처음부터 다시 시도 바랍니다.res_en_msg=refer to kcp]
+1007-143737.212 - 22077 - SR9C7A7EbbF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[RYXUC1633584266]+log_level=[3]+opt=[0]
+1007-143737.219 - 22077 - SR9C7A7EbbF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-143737.229 - 22077 - SR9C7A7EbbF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-143737.253 - 22077 - SR9C7A7EbbF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-143737.253 - 22077 - SR9C7A7EbbF0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7EbbF0RtPc]
+1007-143823.105 - 22098 - SR9C7A7EcNF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[RYXUC1633584266]+log_level=[3]+opt=[0]
+1007-143823.109 - 22098 - SR9C7A7EcNF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-143823.119 - 22098 - SR9C7A7EcNF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-143823.468 - 22098 - SR9C7A7EcNF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-143823.469 - 22098 - SR9C7A7EcNF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7EcNF0RtPcpay_method=PACAorder_no=RYXUC1633584266card_no=9490940000007080mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=RYXUC1633584266cert_no=21530115799425tno=21530115799425amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007143823van_apptime=20211007143823app_no=30021127bizx_numb=00091378177quota=00noinf=Npg_txid=1007143823MOC6DEAC64OI0000000010000030021127res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-144117.508 - 22508 - SR9C7A7EfHF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[RYXUC1633584266]+log_level=[3]+opt=[0]
+1007-144117.512 - 22508 - SR9C7A7EfHF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-144117.523 - 22508 - SR9C7A7EfHF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-144117.545 - 22508 - SR9C7A7EfHF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-144117.545 - 22508 - SR9C7A7EfHF0RtPc - MSG : TX_ENDED - res=[res_cd=8094res_msg=중복 거래요청, 처음부터 재시도 요망res_en_msg=Repeated payment request. Please try again from the beginning.]
+1007-144211.925 - 22541 - SR9C7A7EgBF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[PWCWM1633585296]+log_level=[3]+opt=[0]
+1007-144211.930 - 22541 - SR9C7A7EgBF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-144211.940 - 22541 - SR9C7A7EgBF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-144212.187 - 22541 - SR9C7A7EgBF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-144212.188 - 22541 - SR9C7A7EgBF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7EgBF0RtPcpay_method=PACAorder_no=PWCWM1633585296card_no=9490940000003099mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=PWCWM1633585296cert_no=21530115865597tno=21530115865597amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007144211van_apptime=20211007144211app_no=30021138bizx_numb=00091378177quota=00noinf=Npg_txid=1007144211MOC6EAACB18F0000000010000030021138res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-144351.408 - 22628 - SR9C7A7EhpF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[RLOAA1633585380]+log_level=[3]+opt=[0]
+1007-144351.412 - 22628 - SR9C7A7EhpF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-144351.422 - 22628 - SR9C7A7EhpF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-144351.767 - 22628 - SR9C7A7EhpF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-144351.767 - 22628 - SR9C7A7EhpF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7EhpF0RtPcpay_method=PACAorder_no=RLOAA1633585380card_no=9490940000005005mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=RLOAA1633585380cert_no=21530115894058tno=21530115894058amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007144351van_apptime=20211007144351app_no=30021149bizx_numb=00091378177quota=00noinf=Npg_txid=1007144351MOC6FJACD5ZW0000000010000030021149res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-145735.157 - 23771 - SR9C7A7EvZF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[CHWOX1633586106]+log_level=[3]+opt=[0]
+1007-145735.162 - 23771 - SR9C7A7EvZF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-145735.172 - 23771 - SR9C7A7EvZF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-145735.420 - 23771 - SR9C7A7EvZF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-145735.420 - 23771 - SR9C7A7EvZF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7EvZF0RtPcpay_method=PACAorder_no=CHWOX1633586106card_no=9490940000006087mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=CHWOX1633586106cert_no=21530116133936tno=21530116133936amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007145735van_apptime=20211007145735app_no=30021150bizx_numb=00091378177quota=00noinf=Npg_txid=1007145735MOC6FJACUTLX0000000010000030021150res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-150155.611 - 24188 - SR9C7A7F1tF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[HZXIF1633586489]+log_level=[3]+opt=[0]
+1007-150155.619 - 24188 - SR9C7A7F1tF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-150155.629 - 24188 - SR9C7A7F1tF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-150155.868 - 24188 - SR9C7A7F1tF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-150155.868 - 24188 - SR9C7A7F1tF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7F1tF0RtPcpay_method=PACAorder_no=HZXIF1633586489card_no=9490940000005031mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=HZXIF1633586489cert_no=21530116211094tno=21530116211094amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007150155van_apptime=20211007150155app_no=30021161bizx_numb=00091378177quota=00noinf=Npg_txid=1007150155MOC6FIAD0EKM0000000010000030021161res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-171708.256 -  2710 - SR9C7A7HH8F0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[HCSKT1633594589]+log_level=[3]+opt=[0]
+1007-171708.261 -  2710 - SR9C7A7HH8F0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-171708.271 -  2710 - SR9C7A7HH8F0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-171708.714 -  2710 - SR9C7A7HH8F0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-171708.714 -  2710 - SR9C7A7HH8F0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7HH8F0RtPcpay_method=PACAorder_no=HCSKT1633594589card_no=9490940000005073mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=HCSKT1633594589cert_no=21530118728844tno=21530118728844amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007171708van_apptime=20211007171708app_no=30021172bizx_numb=00091378177quota=00noinf=Npg_txid=1007171708MOC6EGAHUABU0000000010000030021172res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-171955.257 -  2798 - SR9C7A7HJtF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00100000]+ordr_idxx=[SATMH1633594744]+log_level=[3]+opt=[0]
+1007-171955.261 -  2798 - SR9C7A7HJtF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-171955.271 -  2798 - SR9C7A7HJtF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-171955.510 -  2798 - SR9C7A7HJtF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-171955.510 -  2798 - SR9C7A7HJtF0RtPc - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=SR9C7A7HJtF0RtPcpay_method=PACAorder_no=SATMH1633594744card_no=9490940000004098mcht_taxno=1138521083mall_taxno=2913900208ca_order_id=SATMH1633594744cert_no=21530118788730tno=21530118788730amount=1000card_mny=1000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20211007171955van_apptime=20211007171955app_no=30021183bizx_numb=00091378177quota=00noinf=Npg_txid=1007171955MOC6CCAHXV6L0000000010000030021183res_tax_flag=TG01res_tax_mny=909res_free_mny=0res_vat_mny=91partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_issuer_cd=KM04isp_issuer_nm=KB 국민카드isp_partner_cd=000204040041201join_cd=0000card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드]
+1007-172603.855 -  3697 - SR9C7A7HQ3F0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[SATMH1633594744]+log_level=[3]+opt=[0]
+1007-172603.862 -  3697 - SR9C7A7HQ3F0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-172603.872 -  3697 - SR9C7A7HQ3F0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-172603.890 -  3697 - SR9C7A7HQ3F0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-172603.890 -  3697 - SR9C7A7HQ3F0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7HQ3F0RtPc]
+1007-172627.309 -  3714 - SR9C7A7HQRF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[HCSKT1633594589]+log_level=[3]+opt=[0]
+1007-172627.313 -  3714 - SR9C7A7HQRF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-172627.323 -  3714 - SR9C7A7HQRF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-172627.340 -  3714 - SR9C7A7HQRF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-172627.340 -  3714 - SR9C7A7HQRF0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7HQRF0RtPc]
+1007-172627.807 -  3716 - SR9C7A7HQRF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[HCSKT1633594589]+log_level=[3]+opt=[0]
+1007-172627.811 -  3716 - SR9C7A7HQRF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-172627.821 -  3716 - SR9C7A7HQRF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-172627.843 -  3716 - SR9C7A7HQRF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-172627.844 -  3716 - SR9C7A7HQRF0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7HQRF0RtPc]
+1007-172628.069 -  3718 - SR9C7A7HQSF0RtPc - MSG : TX_START - site_cd=[SR9C7]+tx_cd=[00200000]+ordr_idxx=[HCSKT1633594589]+log_level=[3]+opt=[0]
+1007-172628.073 -  3718 - SR9C7A7HQSF0RtPc - MSG : PG_SERVER_CONN__SUCC
+1007-172628.083 -  3718 - SR9C7A7HQSF0RtPc - MSG : PG_SERVER_REQ_MSG_SEND__SUCC
+1007-172628.105 -  3718 - SR9C7A7HQSF0RtPc - MSG : PG_SERVER_RES_MSG_RECV__SUCC
+1007-172628.105 -  3718 - SR9C7A7HQSF0RtPc - MSG : TX_ENDED - res=[res_cd=8076res_msg=포맷에러(변경|변경유형)res_en_msg=trace_no=SR9C7A7HQSF0RtPc]

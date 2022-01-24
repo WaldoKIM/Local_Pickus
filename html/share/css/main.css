@@ -1,0 +1,58 @@
+@charset "UTF-8";
+#main { margin: -81px 0 0 0; }
+@media (max-width:991px) {
+	#main { margin: -55px 0 0 0; }
+}
+
+/* 공통 */
+.box{ position: relative; }
+@media (max-width:991px) {
+	.row{ width: 100%; margin: 0; padding: 0; }
+}
+
+.box_01{ padding: 3% 0 4% 0; }
+.box_01 li{ border-left: 1px solid #000; }
+.box_01 li:nth-child(1){ border-left: 0; }
+.box_01 li a{ display: block; }
+.box_01 li a:hover{ color:#1379cd; }
+
+.box_02{ position: relative; }
+.box_02 td:nth-child(1){ width: 60%; }
+.box_02 td:nth-child(2){ width: 40%; }
+.box_02 .img_wrap{position: relative; }
+.box_02 .img{ position: absolute; bottom: 0; left: 0; width: 100%; }
+@media (max-width:991px) {
+	.box_02{  }
+	.box_02 td:nth-child(1){ display: block; width: 100%; }
+	.box_02 td:nth-child(2){ display: block; width: 100%; }
+	.box_02 h1{ padding: 7% 0; text-align: center; }
+}
+
+.box_03{ padding: 4% 0; background: url(../img/main/box03_img.jpg) center center; }
+.box_03 h2{ padding: 15px 0; }
+.box_03 a{ display: block; padding: 15px 0; font-size: 1.2em; color: #fff; background: #1379cd; }
+@media (max-width:991px) {
+	.box_03{ padding: 7% 0; }
+	.box_03 a{ padding: 10px 0; width: 50%; margin: 0 auto; border-radius: 50px; }
+}
+
+.box_04{ padding: 3% 0; }
+.box_04 td:nth-child(1){ width: 50%; }
+.box_04 td:nth-child(2){ width: 50%; }
+.box_04 h1{ padding: 0 0 10% 0; text-align: center; }
+@media (max-width:991px) {
+	.box_04{ padding: 5% 0; }
+	.box_04 td:nth-child(1){ display: block; width: 100%; }
+	.box_04 td:nth-child(2){ display: block; width: 100%; }
+	.box_04 h1{ padding: 10% 0 5% 0; }
+}
+
+.box_05{ padding: 5% 0; background: url(../img/main/box05_img.jpg) center center; }
+.box_05 h1{ padding: 0 0 4% 0; font-weight: 200; color: #fff; }
+.box_05 h1 strong{ font-weight: 500; }
+.box_05 a{ display: inline-block; width: 30%; padding: 15px 0; font-size: 1.2em; color: #fff; background: #b1cd13; }
+@media (max-width:991px) {
+	.box_05{ padding: 7% 0; }
+	.box_05 h1 strong{ display: block; padding: 5px 0 0 0; }
+	.box_05 a{ width: 50%; padding: 10px 0; border-radius: 50px; }
+}

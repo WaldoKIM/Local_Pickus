@@ -1,0 +1,1221 @@
+@charset "utf-8";
+select,input[type=text],input[type=password],input[type=search],input[type=email],input[type=number],input[type=tel] {margin:0;padding:0; background:none; box-sizing:border-box; padding: 0 10px; max-width: 294px; border-radius: 5px;}
+textarea:focus,
+input[type="select"]:hover,
+input[type="text"]:focus{border-color: rgb(19, 121, 205) !important;}
+textarea{padding: 10px; line-height: 24px;}
+i.main_co{color: #1379cd !important;}
+label{width: 100%;}
+p.red_co{font-size: 12px;}
+.at-main{width: 100% !important}
+.ui-datepicker td span, .ui-datepicker td a{padding: 1.2em !important;}
+.ui-datepicker-calendar thead{border-bottom: 1px solid #ccc !important;}
+.step-progressbar-rounded .step-progressbar-laststep{width: 70px;}
+.modal-content{padding: 15px;}
+.step-progressbar-toplabels{max-width: 800px; margin: 0 auto;}
+.step-progressbar-bar-wrapper{height: 3px !important; border: 1px solid #ccc !important; max-width: 800px; margin: 0 auto !important;}
+.step-progressbar-rounded .step-progressbar-bar:before{height: 3px !important; background-color: #13ce81 !important;}
+.step-progressbar-rounded .step-progressbar-bar:after{height: 3px !important; background-color: #13ce81 !important;}
+.step-progressbar-rounded .step-progressbar-bar .step-progressbar-progress{background-color: #13ce81 !important;}
+.step-progressbar-toplabels .step-progressbar-steplabel{color: #13ce81 !important}
+.step-progressbar-bar .step-progressbar-progress{background-color: }
+.white{color: #fff;}
+h1, .h1{font-size: 31px;}
+@media(min-width: 768px ){
+    #ui-datepicker-div{left: 50% !important ; top: 50% !important; transform: translate(-50%) !important; width: 30% !important; }
+}
+@media(max-width: 768px ){
+    #ui-datepicker-div{width: 95% !important; left: 50% !important; transform: translate(-50%) !important;}
+    .ui-datepicker td span, .ui-datepicker td a{padding: 0.8em !important;}
+    .img_area{display: none;}
+    .sell_single .section_view01 .box input[type="radio"] + i{height: auto !important;padding:15px;}
+    .sell_single .section_view01 .box i p{margin: 0 !important;}
+}
+.ui-datepicker .ui-datepicker-title{font-size: 18px !important;}
+.ui-datepicker th{font-size: 15px !important;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    background-color: transparent !important;
+    text-align: center !important;
+    border:0 !important;
+}
+.ui-datepicker table tr:nth-of-type(2n) td{background-color: }
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{border-color: #fff !important; color: #000; background-color: rgb(19, 121, 205) !important; border-radius: 20px !important; color: #fff !important;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{background-color:#000 !important; border-radius: 20px !important; }
+.ui-widget-header{background-color: #fff !important; border:0 !important; }
+.reg_form {
+    display: none;
+}
+.form-group .txt_title{text-align: center; font-size: 26px;}
+.form-group .txt_title:before{display: none;}
+.form-group .txt_title a{ font-size: 25px; position: absolute; right: 0;  top: 8px;}
+input.main_bg.ad-estimate{background-color: #fff !important; color: #000 !important; border-color: #000 !important}
+.at-body .at-container{background-color: #f4f5f9;}
+/* ============================ 워크 플로우 부분 ======================== */
+.col-md-10{width: 58.33333333%; padding: 0 5px;}
+.btn_check{padding: 0 5px;}
+.work_flow .work_fill {
+    background: rgb(19, 121, 205);
+    color: #fff !important;70
+}
+.work_flow .work_fill h6{color: #fff;}
+.mob_work_flow .work_fill {
+    background: rgb(19, 121, 205);
+    color: #fff !important;
+}
+.mob_work_flow .work_fill h6{
+    color: #fff !important;   
+}
+.address li:nth-of-type(n+2){padding: 0 5px;}
+.form-group.address,
+div#imageList{padding-top: 15px;}
+.btng_bottom{text-align: center; margin-top: 30px;}
+.work_flow {
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: center;
+    position: relative;
+}
+
+.work_flow>a {
+    cursor: pointer;
+}
+
+.work_flow a,
+.work_flow p {
+    float: left;
+    width: 16%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.work_flow p {
+    color: rgb(19, 121, 205);
+    font-size: 150%;
+    position: relative;
+    width: 5%;
+    margin-top: 0.5%;
+    font-weight: bold;
+}
+.work_flow p img{width: 12px; margin-top: 25px;} 
+.work_flow a {
+    background: #fff;
+    color:#333;
+    border-radius: 10px;
+    padding: 1% 0 1% 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-weight: 400;
+}
+
+.work_flow .now_chap {
+    background: rgb(19, 121, 205);
+    color: #fff;
+}
+
+.mob_work_flow .now_chap {
+    background: rgb(19, 121, 205);
+    color: #fff;
+}
+.mob_work_flow a{
+    float: left;
+    width: 16%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.mob_work_flow p {display: none;
+}
+
+
+@media(max-width:830px) {
+    .work_flow a:nth-child(3) {
+        font-size: 90%;
+    }
+}
+
+@media(max-width:830px) {
+    .work_flow a:nth-child(3) {
+        font-size: 80%;
+    }
+}
+
+
+.mob_work_flow {
+    display: none;
+    overflow: hidden;
+    margin: 5% 0 5% 0;
+}
+
+@media(max-width:703px) {
+    .work_flow {
+        display: none;
+    }
+
+    .mob_work_flow {
+        display: block;
+    }
+}
+
+.mob_work_flow a {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 400;
+    background: #fff;
+    color: rgb(19, 121, 205);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+
+}
+
+.mob_work_flow a:nth-child(3) {
+    margin-right: 0;
+}
+
+/*
+.mob_work_flow a:nth-child(1) {
+    margin-right: 5%;
+}
+
+
+
+.mob_work_flow a:nth-child(4) {
+    margin: 4% 5% 0 18%;
+}
+
+.mob_work_flow a:nth-child(5) {
+    margin-top: 4%;
+}*/
+
+
+
+
+/* ============================ 워크 플로우 부분 끝 ======================== */
+
+
+
+
+
+
+
+
+
+.estimate h1 {
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.estimate .line {
+    position: relative;
+}
+
+.estimate .line:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #cccccc;
+}
+
+.estimate .line ul li {
+    padding-bottom: 12%;
+    text-align: center;
+}
+
+.estimate .line ul li span {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.estimate .line ul li h2 {
+    padding: 0 0 3% 0;
+}
+
+.estimate .line ul li p {
+    text-align: left;
+}
+
+.estimate .line ul li .tt_right {
+    padding: 0 0 0 140px;
+}
+
+.estimate .line ul li .tt_left {
+    padding: 0 140px 0 0;
+}
+
+.estimate .line ul li img {
+    width: auto;
+    max-width: 80%;
+}
+
+.estimate .line ul li a {
+    display: block;
+    width: 60%;
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.estimate .line ul .bg01 {
+    background: url('../../img/estimate/estimate_icon_01.png') no-repeat;
+    background-position: 100% 20px;
+}
+
+.estimate .line ul .bg02 {
+    background: url('../../img/estimate/estimate_icon_02.png') no-repeat;
+    background-position: 0% 20px;
+}
+
+.estimate .line ul .bg03 {
+    background: url('../../img/estimate/estimate_icon_03.png') no-repeat;
+    background-position: 100% 20px;
+}
+
+.estimate .line ul .bg04 {
+    background: url('../../img/estimate/estimate_icon_04.png') no-repeat;
+    background-position: 0% 20px;
+}
+
+.estimate .line ul .bg05 {
+    background: url('../../img/estimate/estimate_icon_05.png') no-repeat;
+    background-position: 100% 20px;
+}
+
+@media (max-width: 991px) {
+    .estimate .line:before {
+        content: "";
+        display: none;
+    }
+
+    .estimate .line ul {
+        padding: 7% 0;
+        border-bottom: 1px solid #f5f5f5;
+    }
+
+    .estimate .line ul .bg01,
+    .estimate .line ul .bg02,
+    .estimate .line ul .bg03,
+    .estimate .line ul .bg04,
+    .estimate .line ul .bg05 {
+        background: none;
+    }
+
+    .estimate .line ul li {
+        padding-bottom: 0;
+    }
+
+    .estimate .line ul li .tt_right {
+        padding: 0 10px;
+    }
+
+    .estimate .line ul li .tt_left {
+        padding: 0 10px;
+    }
+}
+
+.choice .box_01 ul li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.choice .box_01 ul li a {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 0 30px 0;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.choice .box_01 ul li a:hover {
+    background: #eee;
+}
+
+.choice .box_01 ul li .on {
+    background: #eee;
+}
+
+.choice .box_01 ul li h4 {
+    position: relative;
+    padding: 30px 0;
+}
+
+.choice .box_01 ul li h4 i {
+    position: absolute;
+    width: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.choice .box_01 ul li p {
+    padding: 0 0 20px 0;
+    color: #525252;
+}
+
+.choice .box_01 ul li span {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+.guide h5 {
+    position: relative;
+    padding: 10px 15px;
+    border-top: 1px solid #eee;
+}
+
+.guide h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px 0 5px 5px;
+    background: #1379cd;
+}
+
+.guide ul {
+    padding: 0 0 10px 0;
+}
+
+.guide ul li {
+    padding: 5px 10px;
+}
+
+/* 견적신청 */
+.request .category {
+    padding: 0 0 15px 0;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+
+.request .category h1 {
+    line-height: 40px;
+}
+
+#imageList>div {
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.form-group{border-bottom: 0;}
+
+.form-group th {
+    padding: 10px;
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+    background: #1379cd;
+}
+
+.form-group td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+}
+
+/*ul { list-style:none; padding:0; margin:0; }*/
+/*ul li { float:left; padding:0; margin:0; }*/
+
+.reg1 .section {
+    overflow: hidden;
+}
+
+.reg1 .container {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+@media(max-width:1620px) {
+    .reg1 .container {
+        width: 100%;
+    }
+}
+
+.reg1 .form-outline {
+    position: relative;
+    float: left;
+    width: 60%;
+    border: 2px solid rgb(19, 121, 205, 0.7);
+    padding: 5%;
+}
+
+.reg1 .sub_title {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding: 0;
+}
+
+.reg1 .sub_title p {
+    margin-left: 20%;
+    color: #1379cd;
+}
+
+.reg1 .sub_title .title {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.reg1 .sub_title p:nth-child(3) {
+    margin-top: 15%;
+}
+
+@media(max-width:650px) {
+    .reg1 .sub_title p:nth-child(2n) {
+        font-size: 80%;
+    }
+
+    .reg1 .sub_title .title {
+        font-size: 120%;
+    }
+
+}
+
+/* =========================견적 신청 메인 페이지 푸터 부분=============================== */
+
+.mt5 {
+    margin-top: 5%;
+}
+
+.mt10 {
+    margin-top: 10%;
+}
+
+.mt15 {
+    margin-top: 15%;
+}
+
+.mt20 {
+    margin-top: 20%;
+}
+
+.mt25 {
+    margin-top: 25%;
+}
+
+.mt30 {
+    margin-top: 30%;
+}
+
+.mt35 {
+    margin-top: 35%;
+}
+
+.mt40 {
+    margin-top: 40%;
+}
+
+.est_main_footer svg:nth-child(2) {
+    display: none;
+}
+
+.est_main_footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.est_main_footer .workflow {
+    position: relative;
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 100%;
+}
+
+.est_main_footer .workflow_white {
+    position: relative;
+    float: left;
+    width: 6.6666%;
+    height: 10px;
+}
+
+.est_main_footer .workflow img {
+    width: 30%;
+}
+
+.est_main_footer .workflow p:nth-child(2) {
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.est_main_footer .workflow p:nth-child(3) {
+    font-size: 130%;
+    color: rgb(19, 121, 205);
+    font-weight: bold;
+}
+
+.est_main_footer .workflow p:nth-child(4) {
+    font-size: 90%;
+    margin-top: 5%;
+    margin-bottom: 50%;
+}
+
+.est_main_footer .workflow p:nth-child(5) {
+    position: absolute;
+    font-size: 80%;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.est_main_footer .chap01 {
+    margin-top: 3.4%;
+}
+
+.est_main_footer .chap02 {
+    margin-top: 5.9%;
+}
+
+.est_main_footer .chap03 {
+    margin-top: 8.4%;
+}
+
+.est_main_footer .chap04 {
+    margin-top: 10.9%;
+}
+
+/* 모바일 버전*/
+.mob_est_main_footer {
+    display: none;
+}
+
+.mob_est_main_footer .workflow {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+.mob_est_main_footer .workflow>div {
+    overflow: hidden;
+    width: 80%;
+    float: left;
+}
+
+.mob_est_main_footer .workflow>div>h1 {
+    font-size: 130%;
+    font-weight: 500;
+    margin-bottom: 5%;
+    color: rgb(19, 121, 205);
+}
+
+.mob_est_main_footer .workflow>div>h1>span {
+    color: rgb(19, 121, 205);
+    margin-right: 2%;
+}
+
+.mob_est_main_footer .workflow>div>p {
+    line-height: 110%;
+}
+
+.mob_est_main_footer .workflow>img {
+    float: left;
+    width: 13%;
+    margin-left: 4%;
+    top: 50%;
+    margin-top: 2%;
+}
+
+
+
+
+
+@media(max-width:991px) {
+    .est_main_footer {
+        display: none;
+    }
+
+    .mob_est_main_footer {
+        display: block;
+    }
+}
+
+
+
+
+
+/* =========================견적 신청 메인 페이지 푸터 부분 끝 =============================== */
+
+
+/* ===============================견적 신청 내부 ====================================*/
+@media(min-width: 1000px){
+    #aa_row {
+        width: 1000px;
+    }
+}
+@media(max-width:703px){
+    #aa_row {
+        width: 250px;
+        margin-left: 20px;
+    }
+}
+/* 0427 A견적신청 form 수정 시 하단 소스 작업 필요 */
+.form_section {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section_view01 {}
+
+.section_view02 {
+    display: none;
+}
+
+.section_view03 {
+    display: none;
+}
+
+.section_view04 {
+    display: none;
+}
+
+.section_view05 {
+    display: none;
+}
+
+#a_custom {
+    display: block;
+    padding-bottom: 5%;
+}
+
+
+@media(min-width:1000px) {
+    .form_section .next_section_btn {
+        border-radius: 5px;
+        background: rgb(19, 121, 205);
+        color: #fff;
+        width: 20%;
+        text-align: center;
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:991px) {
+    
+    .form_section .next_section_btn{
+        border-radius: 5px;
+        background: rgb(19, 121, 205);
+        color: #fff;
+        width: 20%;
+        text-align: center;
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+}
+
+@media(max-width:768px) {
+.form_section .next_section_btn {
+    border-radius: 5px;
+    background: rgb(19, 121, 205);
+    color: #fff;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    line-height: unset;
+    height: unset;
+}
+.form_section .btn_wrap input[type=button]{
+    height: 46px;
+}
+}
+
+@media(max-width:703px) {
+    .form_section .next_section_btn {
+        width: 40%;
+        padding: 4%;
+        margin-left: 0px;
+    }
+
+    .form_section .form_section_value {
+        position: relative;
+        padding-bottom: 10%;
+    }
+
+    .btng_bottom{margin-top: 0;}
+    .address li:nth-of-type(n+2){width: 100%;}
+    .address li:nth-of-type(3){margin-top: 5px;}
+}
+
+
+/*========입력 영역=========*/
+.form_section .form_section_value {
+    overflow: hidden;
+    width: 100%;
+}
+
+.ABtest01>h1 {
+    color: red;
+    font-size: 100%;
+    margin: 2% 0;
+}
+
+.ABtest01>p {
+    float: left;
+    width: 19%;
+    text-align: center;
+    border: 2px solid rgb(19, 121, 205);
+    font-size: 100%;
+    border-radius: 5px;
+    margin: 1% 0.5%;
+    cursor: pointer;
+    padding: 0.5%;
+}
+
+.ABtest01>input[type=text] {
+    float: left;
+    width: 79%;
+    margin: 1% 0.5%;
+}
+
+.ABtest01>h1:nth-child(14) {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.ABtest01>input[type=button] {
+    display: inline-block;
+    width: 10%;
+    border: 2px solid rgb(19, 121, 205);
+    margin: 0 0.5%;
+}
+
+
+
+/*======입력 영역 끝========*/
+
+
+
+
+
+
+/*========텍스트 영역=========*/
+
+@media(max-width:700px){
+    #aa_formtext{
+        display:none;
+    }
+
+}
+.form_section .form_section_text {
+    float: left;
+    overflow: hidden;
+    width: 33.4%;
+    color: rgb(19, 121, 205, 0.8);
+}
+
+.form_section .form_section_text h2 {
+    position: relative;
+    font-size: 140%;
+    left: 20%;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.reg_form .form_section_text h2 {
+    margin-top: 0%;
+}
+
+.reg_form .form_section_text h2:nth-child(3) {
+    margin-top: 10%;
+}
+
+.form_section .form_section_text p {
+    position: relative;
+    font-size: 100%;
+    left: 20%;
+    margin-top: 5%;
+    width: 80%;
+    font-weight: 500;
+}
+
+@media(max-width:703px) {
+    .form_section .form_section_text {
+        width: 100%;
+    }
+
+    .form_section .form_section_text h2 {
+        left: 0;
+    }
+
+    .form_section .form_section_text p {
+        left: 0;
+    }
+
+    .form_section .form_section_text p {
+        width: 100%;
+    }
+
+}
+
+/*======텍스트 영역 끝========*/
+
+/*.btn_posi {
+    position: absolute;
+    left: 50%;
+    top: 40% !important;
+    width: 50%;
+    transform: translateX(-50%);
+}*/
+
+
+/*========view04 부분========*/
+
+.section_view04 .com_sel_area {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 2%;
+    overflow: hidden;
+    background: rgba(19, 121, 205, 0.1);
+    margin-bottom: 1%;
+}
+
+
+.section_view04 .com_sel_area>p:nth-child(1) {
+    float: left;
+    width: 50%;
+    color: rgb(19, 121, 205);
+}
+
+.section_view04 .com_sel_area>p:nth-child(2) {
+    float: left;
+    width: 50%;
+    text-align: right;
+    color: rgb(19, 121, 205);
+}
+
+.section_view04 .com_sel_area>.img_area {
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 13% 15%;
+    border: 1px solid rgba(19, 121, 205);
+    background: rgba(19, 121, 205, 0.1);
+    margin: 2% 2% 2% 0;
+}
+
+.section_view04 .com_sel_area>p:nth-child(4):before {
+    content: "평점 : ";
+    font-weight: bold;
+}
+
+.section_view04 .com_sel_area>p:nth-child(4) {
+    float: left;
+    width: 67%;
+    text-align: left;
+    color: rgb(19, 121, 205);
+    margin-top: 2%;
+}
+
+.section_view04 .com_sel_area>p:nth-child(5) {
+    float: left;
+    width: 67%;
+    text-align: left;
+    color: rgb(19, 121, 205);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+.section_view04 .com_sel_area>p:nth-child(6) {
+    float: left;
+    width: 65%;
+    color: rgb(19, 121, 205);
+    margin-right: 2%;
+}
+
+.section_view04 .com_sel_area>p:nth-child(6)>input[type=text] {
+    width: 50%;
+    background: none;
+    color: rgb(19, 121, 205);
+    border-radius: 0;
+    padding-bottom: 1.5%;
+}
+
+.section_view04 .com_sel_area>p:nth-child(7) {
+    float: left;
+    width: 67%;
+    color: rgb(19, 121, 205);
+}
+
+.section_view04 .com_sel_area>p:nth-child(7)>input[type=text] {
+    width: 48%;
+    background: none;
+    margin-left: 3%;
+    color: rgb(19, 121, 205);
+    border-radius: 0;
+    padding-bottom: 1.5%;
+}
+
+.section_view04 .com_sel_area>p:nth-child(8) {
+    width: 20%;
+    float: left;
+    color: rgb(19, 121, 205);
+    border: 2px solid rgb(19, 121, 205);
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 47%;
+}
+
+.section_view04 .com_sel_area>p:nth-child(9) {
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin-top: 4.5%;
+    color: rgba(19, 121, 205);
+}
+
+.section_view04 .com_sel_area>input[type=button] {
+    float: left;
+    width: 20%;
+    margin-top: 3%;
+    background: rgb(19, 121, 205);
+    color: #fff;
+    margin-left: 17%;
+}
+
+@media(max-width:703px) {
+    .section_view04 .com_sel_area>p:nth-child(6)>input[type=text] {
+        width: 80%;
+        padding-bottom: 2%;
+    }
+
+    .section_view04 .com_sel_area>p:nth-child(7)>input[type=text] {
+        width: 80%;
+        padding-bottom: 2%;
+        margin-left: 5%;
+    }
+
+    .section_view04 .com_sel_area>p:nth-child(5) {
+        margin-bottom: 0;
+    }
+
+    .section_view04 .com_sel_area>p:nth-child(8) {
+        margin-left: 1%;
+    }
+
+    .section_view04 .com_sel_area>p:nth-child(9) {
+        margin: 0;
+        margin-left: 11.5%;
+    }
+
+    .section_view04 .com_sel_area>input[type=button] {
+        margin: 0;
+        padding: -5% 0;
+        margin-left: 17%;
+    }
+
+
+
+
+
+}
+
+/*사진등록 부분*/
+
+@media(max-width:703px) {
+    .input_img>div>div {
+        width: 50%;
+        float: left;
+    }
+}
+
+
+/*파일 업로드 부분*/
+
+.section_view02 .file_upload {
+    float: left;
+    width: 49%;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 2%;
+    border: 1px solid rgb(19, 121, 205);
+}
+
+.section_view02 .file_upload_02 {
+    float: left;
+    width: 20%;
+    margin-top: 2%;
+    margin: 2% 28% 0 2%;
+    background: rgb(19, 121, 205);
+    color: #fff;
+    font-size: 70%;
+}
+
+
+
+/* ===============================견적 신청 내부 끝 ====================================*/
+
+/*파일 다운로드 테스트버전 _20200401*/
+.box-file-input label {
+    display: inline-block;
+    background: #1479CD;
+    color: #fff;
+    padding: 0px 15px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.box-file-input label:after {
+    content: "파일등록";
+}
+
+.box-file-input .file-input {
+    display: none;
+}
+
+.box-file-input .filename {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+/* 0403 잠시 테스트
+@media(min-width:900px) {
+.request {
+  width : 60%;
+  display: inline-block;
+}
+}
+*/
+
+@media(max-width:703px) {
+    .col-md-offset-8.col-md-4{
+        width : 180px;
+    }
+}
+
+
+/* */
+
+/*========텍스트 영역=========*/
+
+
+/* 
+#mob-formtext h2 {
+    position: relative;
+    font-size: 140%;
+    left: 20%;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+#mob-formtext h2 {
+    margin-top: 0%;
+}
+
+#mob-formtext h2:nth-child(3) {
+    margin-top: 10%;
+}
+
+#mob-formtext p {
+    position: relative;
+    font-size: 100%;
+    left: 20%;
+    margin-top: 5%;
+    width: 80%;
+    font-weight: 500;
+} */
+@media(min-width:704px){
+    #mob-formtext{
+        display: none;
+    }
+}
+@media(max-width:703px) {
+    #mob-formtext{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    color: rgb(19, 121, 205, 0.8);
+    }
+
+    #mob-formtext h2 {
+        position: relative;
+        font-size: 140%;
+        left: 0%;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+
+    #mob-formtext p {
+        left: 0;
+    }
+
+    #mob-formtext p {
+        position: relative;
+    font-size: 100%;
+    left: 00%;
+    margin-top: 5%;
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 50px;
+    }
+
+}
+
+.match_main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.match_main-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.match_main-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.match_main-btn-text {
+    font-size: 0.8em;
+}
+.section_view04 #pbAgree{display: none;}
+@media(max-width: 460px){
+    .btng_bottom{width: 100%; position: fixed;bottom: 0; left: 0; z-index: 99;}
+    .btng_bottom a{width: 50%; float: left; border-radius: 0; border:1px solid #ccc;}
+    .btng_bottom a:first-of-type{border-right: 0;}
+    .form_section .next_section_btn{width: 50%;}
+    .section_view01 .next_section_btn,
+    .section_view01 .btng_bottom a{width: 100%;}
+    .section_view01 .btng_bottom a:first-of-type{border-right: 1px solid #ccc;}
+    .form_section .next_section_btn{border-radius: 0;}
+    .form_section .btn_wrap{width: 100%; position: fixed;bottom: 0; left: 0; z-index: 99; top: unset !important;}
+    .form_section .btn_wrap li{padding: 0 !important;}
+    .form_section .btn_wrap li:first-of-type input[type="button"]{border:1px solid #ccc !important;}
+    input.main_bg.ad-estimate{border-color: #ccc !important;}
+    .form_section .btn_wrap li input[type="button"]{border-radius: 0;}
+}

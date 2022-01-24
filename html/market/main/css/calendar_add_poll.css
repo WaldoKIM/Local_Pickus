@@ -1,0 +1,604 @@
+#calendar_week_top {
+	font-size: 10pt;
+	text-align: center;
+	background-color: #fff;
+	height:3em;
+	font-family: 'RixSGo M', "NanumBarunGothic", "Tahoma", "Helvetica", sans-serif; 
+    background: -moz-linear-gradient(#fff, #f7f7f7);
+    background: -ms-linear-gradient(#fff, #f7f7f7);
+    background: -o-linear-gradient(#fff, #f7f7f7);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f7f7f7));
+    background: -webkit-linear-gradient(#fff, #f7f7f7);
+    background: linear-gradient(#fff, #f7f7f7);
+    text-shadow: 0 1px rgba(255,255,255,0.3);
+	}
+
+.calendar_week_width {width:14.2%;}
+
+.calendar_week_TB {
+	border-top:1px solid #C2C2C2;
+	border-bottom:1px solid #8F8F8F;
+	width:14.2%;
+	}
+
+.calendar_week_left {border-left:1px solid #C2C2C2;}
+.calendar_week_right {border-right:1px solid #8F8F8F;}
+
+#calendar_week_body{}
+
+
+.calendar_week_leftL { 
+	text-align:center; 
+	padding-bottom:1em;
+	color:#000;
+	font-size: 12pt;
+}
+.calendar_week_leftM { 
+	text-align:center; 
+	padding-bottom:1em;
+	color:#777;
+}
+
+.calendar_week_alltable_none {
+	width:14.2%; 	
+	height:12em;
+	vertical-align: top;
+	background:#f8f8f8;
+	color:#D8D8D8;
+	line-height: 1em;
+	font-family:'RixSGo M', "NanumBarunGothic", "Tahoma", "Helvetica", sans-serif; 
+	font-size: 10pt;
+	border:1px solid #C2C2C2;
+	}
+
+.calendar_week_choice {
+	width:14.2%; 
+	height:12em;
+	vertical-align: top;
+	border:1px solid #8F8F8F;
+	border-left:1px solid #C2C2C2;
+	border-right:1px solid #8F8F8F;
+	line-height: 1em;
+	color:#333;
+	font-family:'RixSGo M', "NanumBarunGothic", "Tahoma", "Helvetica", sans-serif; 
+	font-size: 10pt;
+	}
+
+.calendar_dayiconform {
+	margin:10px 2px;
+	position: relative;
+	}
+
+.calendar_week_sensbody {
+	font-size: 9pt;
+	position: absolute;
+	letter-spacing: -0.1em;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 
+	}
+.calendar_week_sensbody_none {
+	font-size: 9pt;
+	color:#999;
+	position: absolute;
+	letter-spacing: -0.1em;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 
+	}
+.calendar_dayicon {
+	padding:0.2em 0.5em; font-size: 8pt;
+	background:#000; 
+	border-radius: 10px;
+	color:#fff;
+	}
+.calendar_dayicon_none {
+	padding:0.2em 0.5em; font-size: 8pt;
+	background:#888; 
+	border-radius: 10px;
+	color:#fff;
+	}
+.calendar_week_nobg1 {width:100%;padding:3px; background: #F5CF3C; color:#fff; position: relative;}
+.calendar_week_nobg2 {width:100%;padding:3px; background:#f7f7f7; color:#fff; position: relative;}
+.calendar_week_nobg3 {
+	width:100%;
+	padding:3px; 
+	background: rgba(0,0,0,0.5); 
+	color:#fff; 
+	position: relative;
+	font-size:10pt; 
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 
+	}
+.calendar_week_nobg4 {width:100%;padding:3px; background:rgba(0,0,0,0.1);  color:#fff; position: relative;}
+
+.calendar_day_check_box {
+	width:100%;
+	padding-top:50px;
+	display:inline-block;
+	text-align:center;
+	}
+
+
+
+
+/*********************일정표 리스트형*****/
+#calendar_list_tableTD_on {
+	/* background:#fff; */
+	}
+#calendar_list_tableTD_on:hover {
+	background:#f9f9f9;
+	}
+
+
+.calendar_list_table_bg {
+	font-size:11pt; 
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 
+	background:#fff; 
+	margin:3px;
+	padding: 0.2em;
+	letter-spacing: -0.07em;
+	text-align:center;
+	background: -moz-linear-gradient(#fff, #f6f6f6);
+    background: -ms-linear-gradient(#fff, #f6f6f6);
+    background: -o-linear-gradient(#fff, #f6f6f6);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f6f6f6));
+    background: -webkit-linear-gradient(#fff, #f6f6f6);
+    background: linear-gradient(#fff, #f6f6f6);
+
+	border-top:1px solid #C2C2C2;
+	border-bottom:1px solid #8F8F8F;
+	border-left:1px solid #C2C2C2;
+	border-right:1px solid #8F8F8F;
+
+    color: #333;
+    text-shadow: 0 1px rgba(255,255,255,0.9);
+	}
+.calendar_list_tableTD_bgsubject {
+	padding: 0.5em;
+	text-align:center;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
+	}
+.calendar_list_tableTD_bgsubject_pension {
+	padding: 0.5em;
+	text-align:center;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	}
+
+
+.calendar_list_tableTD_bgtitleB {
+	font-size:11pt; 
+	letter-spacing: -0.07em;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 	
+	}
+.calendar_list_tableTD_bgtitleS {
+	font-size:11pt; 
+	letter-spacing: -0.07em;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 	
+	}
+
+.calendar_list_tableTD_bgtitle {
+	font-size:10pt; 
+	letter-spacing: -0.07em;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 	
+	}
+.calendar_list_tableTD_bg {
+	padding: 0.5em;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
+	}
+.calendar_list_tableTD_top {
+	border-top:2px solid #333;
+	}
+.calendar_list_tableTD_bgright_bottom {
+	padding: 0.5em;
+	border-bottom:1px solid #333;
+	}
+.calendar_list_tableTD_bgright {
+	padding: 0.5em;
+	border-bottom:1px solid #ddd;
+	}
+
+.calendar_list_tableTD_bg_right_bbs {
+	padding: 0.5em;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
+	}
+.calendar_list_tableTD_bg_left_bbs {
+	padding: 0.5em;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	}
+
+
+.calendar_list_tableTD_contents {
+	letter-spacing: -0.07em;
+	color:#548DD4;
+	}
+.tableTD_bgright_foodview {
+	padding: 0.3em;
+	border-bottom:1px solid #ddd;
+	}
+.tableTD_bgright_foodview_top {
+	padding: 0.3em;
+	border-top:1px solid #333;
+    color: #666;
+	background:#f8f8f8;
+	}
+.tableTD_bgright_foodview-bottom {
+	padding: 0.3em;
+	border-bottom:1px solid #333;
+	background:#f8f8f8;
+	}
+
+
+
+
+/*********************주소록*****/
+.add_list_tableTD_bg {
+	padding: 0.5em;
+	text-align:left;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
+    color: #666;
+	}
+.addzipbtn {
+	background: #333; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	border-radius: 0.2em;
+	}
+.addtable_subjectTop {
+	text-align:left;
+	border-top:2px solid #333;
+}
+.addtable_subjectBottom {
+	text-align:left;
+	border-bottom:1px solid #333;
+}
+.addtable_subjectCenter {
+	text-align:left;
+	border-bottom:1px solid #ddd;
+}
+.addtable_subject {
+	padding:5px;
+	width:7em;
+	background: #f8f8f8; 
+	text-align:center;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif; 
+	}
+.addtable_contents  {
+	padding:5px;
+	font-size:10pt; 
+	letter-spacing: -0.07em;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+}
+.bbsconts_TX  {
+	font-size:10pt; 
+	color: #888;
+	letter-spacing: -0.07em;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+}
+#addtable_divcont {
+	margin:0 auto; 
+	width:100%;
+} 
+#addtable_divLeft {
+	clear:both; 
+	float:left; 
+	width:50%; 
+} 
+#addtable_divright {
+	float:right; 
+	text-align:right; 
+	width:50%;
+	padding-top:15px;
+}
+#addtable_divcont2 {
+	margin:0 auto; 
+	width:100%;
+} 
+#addtable_divLeft2 {
+	float:left; 
+	padding:7px;
+	text-align:center; 
+	width:80%; 
+} 
+#addtable_divright2 {
+	float:right; 
+	text-align:right; 
+	width:20%;
+}
+
+img.resize_item_addlist {  /*주소록리스트이미지*/
+	width: 100%;
+	min-width: 50%;
+	border:1px solid #fff;
+	}
+img.resize_item_addlist:hover {  
+	border:1px solid #FC6E51;
+	background-color:#fff;
+	}
+img.resize_item_addview {  /*주소록리스트이미지*/
+	width: 70%;
+	min-width: 50%;
+	}
+
+
+
+
+/*****************************************설문조사영역**********************************/
+.poll_mini_btn_blue {
+	background: #5F82E5; 
+	letter-spacing: -1px;
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:8pt; 
+	border-radius: 0.2em;
+	padding:3px;
+	margin:1px;
+	}
+
+.poll_mini_btn_blue:link {	color: #fff;	}
+.poll_mini_btn_blue:hover {background:#4667C5;	color: #fff;	}
+.poll_mini_btn_blue:visited {	color: #fff;	}
+
+
+
+.poll_mini_btn_mint {
+	background: #10ABAC; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	border-radius: 0.2em;
+	padding:3px;
+	margin:1px;
+	}
+.poll_mini_btn_gray {
+	background: #aaa; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	border-radius: 0.2em;
+	padding:3px;
+	margin:1px;
+	}
+.poll_mini_btn_red {
+	background: #F06C6B; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	border-radius: 0.2em;
+	padding:3px;
+	margin:1px;
+	}
+.poll_mini_btn_red:link {	color: #fff;	}
+.poll_mini_btn_red:hover {background:#F06C6B;	color: #fff;	}
+.poll_mini_btn_red:visited {	color: #fff;	}
+
+.poll_mini_btn_dark {
+	background: #333; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	border-radius: 0.2em;
+	padding:3px;
+	}
+.poll_mini_btn_dark:link {	color: #fff;	}
+.poll_mini_btn_dark:hover {background:#000;	color: #fff;	}
+.poll_mini_btn_dark:visited {	color: #fff;	}
+
+
+.poll_mini_btn_view_org {
+	background: #F3A667; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	font-family:'RixSGo M',  "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+	border-radius: 0.2em;
+	padding:5px;
+	margin:1px;
+	}
+
+.poll_mini_btn_view_org:link {	color: #fff;	}
+.poll_mini_btn_view_org:hover {background:#E28131;	color: #fff;	}
+.poll_mini_btn_view_org:visited {	color: #fff;	}
+
+
+.poll_mini_btn_view_blu {
+	background: #95B3D7; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	font-family:'RixSGo M',  "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+	border-radius: 0.2em;
+	padding:5px;
+	margin:1px;
+	}
+
+.poll_mini_btn_view_blu:link {	color: #fff;	}
+.poll_mini_btn_view_blu:hover {background: #6890C1; 	color: #fff;	}
+.poll_mini_btn_view_blu:visited {	color: #fff;	}
+
+
+.poll_mini_btn_green {
+	background: #97B606; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	border-radius: 0.2em;
+	padding:3px;
+	margin:1px;
+	}
+.poll_title {	
+	font-size:14pt; 
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+	letter-spacing: -0.1em;
+	}
+
+.poll_title_bg1 {
+	font-size:12pt; 
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+	letter-spacing: -0.1em;	
+	width:15em;
+	padding:1em;
+	background: #DBEEF3;
+	display:inline-block;
+	text-align:center;
+	border-radius: 0.5em 0.5em 0 0
+	}
+.poll_title_bg2 {
+	font-size:12pt; 
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+	letter-spacing: -0.1em;		
+	width:15em;
+	padding:1em;
+	background: #F9F6E7;
+	display:inline-block;
+	text-align:center;
+	border-radius: 0.5em 0.5em 0 0
+	}
+#polltable_divcont {
+	margin:0 auto; 
+	width:100%;
+} 
+#polltable_divLeft {
+	float:left; 
+	width:85%;
+	font-size:11pt; 
+} 
+#polltable_divright {
+	float:right; 
+	text-align:right; 
+	width:15%;
+	padding-top:30px; 
+}
+
+.pollcoment_btn_gry {
+	background: #95B3D7; 
+	padding:1px  2px  2px  2px;
+	color: #fff;
+	font-size:9pt; 
+	display:inline-block;
+	font-family:'RixSGo M', "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+	border-radius: 0.7em;
+	padding:35px;
+	}
+
+.pollcoment_btn_gry:link {	color: #fff;	}
+.pollcoment_btn_gry:hover {background: #6890C1; 	color: #fff;	}
+.pollcoment_btn_gry:visited {	color: #fff;	}
+
+.poll_comment_del {
+	padding:5px;
+	background: #f8f8f8; 
+	border-radius: 0.7em;
+	border:2px solid #333;
+	}
+.calendar_hit {
+	font-size:11pt; 
+	font-family:'RixSGo M',  "NanumBarunGothic", "돋움", "Tahoma", "Helvetica", sans-serif;
+	letter-spacing: -0.1em;	
+}
+
+@media all and (min-width:480px) and (max-width:1023px) {
+#polltable_divcont {
+	margin:0 auto; 
+	width:100%;
+	} 
+#polltable_divLeft {
+	clear:both; 
+	float:left; 
+	width:80%; 
+	} 
+#polltable_divright {
+	float:right; 
+	text-align:right; 
+	width:20%;
+	padding-top:30px; 
+	}
+.bbsconts_TX  {
+	font-size:8pt; 
+}
+.calendar_list_tableTD_bgtitleB {
+	font-size:10pt; 
+	letter-spacing: -0.07em;
+	font-family:'RixSGo M', "NanumBarunGothic", "NanumBarunGothicBold", "돋움", "Tahoma", "Helvetica", sans-serif; 	
+	}
+
+.pollcoment_btn_gry {
+	padding:35px;
+	}
+.calendar_list_tableTD_bg {
+	font-size:10pt; 
+	letter-spacing: -0.1em;	
+}
+.calendar_list_tableTD_bgtitle {
+	font-size:10pt; 	
+	}
+.calendar_hit {
+	font-size:10pt; 	
+	}
+
+}
+
+
+@media (min-width:100px) and (max-width:479px){
+
+.calendar_list_tableTD_bg {
+	font-size:10pt; 
+	letter-spacing: -0.1em;	
+}
+.calendar_list_tableTD_bgtitleB {
+	font-size:10pt; 
+	letter-spacing: -0.07em;
+	font-family:'RixSGo M', "NanumBarunGothic", "NanumBarunGothicBold", "돋움", "Tahoma", "Helvetica", sans-serif; 	
+	}
+
+/*********************일정표*****/
+.calendar_hit {display:none;}
+
+
+
+
+/*********************설문조사*****/
+.poll_title {	
+	font-size:11pt; 
+	}
+
+.poll_title_bg1.poll_title_bg2 {
+	font-size:10pt; 
+	}
+	
+#polltable_divcont {	margin:0 auto; 	width:100%;	} 
+#polltable_divLeft {	clear:both; float:left; width:100%; padding-bottom:10px; padding-top:6px;font-size:10pt;} 
+#polltable_divright {float:right;padding-top:0;  text-align:center; width:100%;}
+.pollcoment_btn_gry {
+	padding:10px;
+	width:90%;
+	text-align:center; 
+	border-radius: 0.4em;
+	}
+}
+
+@media (min-width:100px) and (max-width:779px){
+.calendar_list_table_bg {
+	font-size:10pt; }
+.calendar_week_leftL {
+	font-size: 11pt;
+}
+.calendar_week_leftM {
+	font-size: 10pt;
+}
+/*********************주소록*****/
+#addtable_divcont {	margin:0 auto; 	width:100%;	} 
+#addtable_divLeft {	clear:both; float:left; width:100%; padding-bottom:20px; padding-top:10px;} 
+#addtable_divright {float:left; text-align:left; width:100%;}
+
+
+#addtable_divcont2 {margin:0 auto; 	width:100%;	} 
+#addtable_divLeft2 {clear:both; width:100%; text-align:center;} 
+#addtable_divright2 { text-align:center; width:100%;}
+
+
+}

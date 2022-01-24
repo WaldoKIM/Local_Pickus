@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+#board .title{ padding: 0 0 1em 0; }
+#board .list .text-right{ text-align: right; }
+.admin .list a{ display: block; line-height: 40px; border-radius: 5px; }
+
+.form_wrap{ padding: 1.5em 0 0.5em 0; }
+.form-group .title{ line-height: 40px; }
+
+.form-group .error{ display: none; padding: 5px 0 0 0; font-size: 0.9em; line-height: 1em; text-align: right; color: #da1a1a; }
+
+/*센터회원*/
+#board .member table { text-align: center; border-top: 2px solid #15aae8; }
+#board .member th { text-align: center; background: #eee; }
+#board .member tr:nth-child(2n+2) td{ background: #fafaff; }
+
+#board .member a{ display: block; line-height: 40px; border-radius: 5px; }
+
+/*카테고리 설정*/
+.category ul li:nth-child(1) .list { background: #f6fbff; }
+.category ul li:nth-child(2) .list { background: #f6fcff; }
+.category ul li:nth-child(3) .list { background: #f6fffc; }
+.category .title { overflow: hidden; }
+.category .title a{ float: right; padding: 8px 20px; font-size: 0.7em; border-radius: 5px; }
+
+
+.category .list a{ display: block; border-radius: 5px; }
+
+input[type=radio].css-input-radio {
+	position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; 
+    width:1px; 
+    margin:-1px; 
+    padding:0;
+    border:0;
+}
+
+input[type=radio].css-input-radio + label.css-input-radio-label {
+	display:inline-block;
+	width:100%;
+	line-height: 50px;
+	vertical-align:middle;
+	text-align:center;
+	cursor:pointer;
+	letter-spacing: -0.2px;
+	color: #a9a9a9;
+	border: solid 1px #b1b1b1;
+	background-color: #fff;
+}
+
+input[type=radio].css-input-radio:checked + label.css-input-radio-label {
+	color: #ffffff;
+	background-color: #003875;
+	border: solid 1px #003875;
+}

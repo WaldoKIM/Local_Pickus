@@ -1,0 +1,72 @@
+.mypage_btn_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 4% 5%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5%;
+}
+
+.back_btn{
+    position: absolute;
+}
+
+.back_btn > img{
+    width: 25px;
+}
+
+.title{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mypage_btn_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.mypage_btn_list > a {
+    width: 31%;
+    margin: 2% 1%;
+}
+
+
+
+.mypage_btn_list > a > p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+@media(max-width:1024px){
+    .header {
+        display: none !important;
+    }
+
+    .mypage_btn_list > a > img{
+        width: 50%
+    }
+}
+
+@media(min-width:1024px){
+    .mypage_btn_header{
+        display: none;
+    }
+
+    .mypage_btn_list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .mypage_btn_list > a > img{
+        width: 30%
+    }
+}

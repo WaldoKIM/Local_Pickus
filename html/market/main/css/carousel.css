@@ -1,0 +1,115 @@
+
+/* display none until init */
+.product-carousel{
+	display: none;
+	opacity:1!important;
+	position: relative;
+	width: 100%;
+	/* padding: 1rem !important; */
+	-ms-touch-action: pan-y;
+}
+#column-left .product-carousel, #column-right .product-carousel { display:block;}
+#column-left .customNavigation, #column-right .customNavigation { display:none;}
+
+#column-left .banners-slider-carousel .customNavigation,
+#column-right .banners-slider-carousel .customNavigation{ display:block;}
+
+.product-carousel .slider-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-perspective: 1000;
+}
+.product-carousel .slider-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.product-carousel .slider-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.product-carousel .slider-item{
+	float: left;
+}
+.slider-controls .slider-page,
+.slider-controls .slider-buttons div{
+	cursor: pointer;
+}
+.slider-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* fix */
+.product-carousel  .slider-wrapper,
+.product-carousel  .slider-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	list-style:none;
+}
+#tmcmsblockblog .flex-direction-nav{display: block !important;}
+#tmcmsblockblog .flex-control-paging {display: none;}
+.customNavigation    { text-align: center; position:relative;width:100%}
+#tmcmsblockblog .flex-direction-nav li a {top: 22px !important;}
+
+.customNavigation a,#tmcmsblockblog .flex-direction-nav li a{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color:transparent;
+	display: block;
+    float: right;
+    height: 70px !important;
+    position: absolute;
+    top: 130px;
+    width: 70px !important; 
+	text-indent: -9999px;
+	cursor:pointer;
+} 
+
+
+/**************** 베스트 신상 화살표 아이콘 *******************/
+.customNavigation a.prev,#tmcmsblockblog .flex-direction-nav li a.flex-prev  {
+  	/* background: url("../images/sprite.png") no-repeat scroll -200px 2px  transparent; */
+	background: url("../images/list_prev_btn.png") no-repeat center;
+    background-size: 50px;
+    /* right:30px; */
+	left: -20px;
+	z-index: 1;
+}
+.customNavigation a.prev:hover,#tmcmsblockblog .flex-direction-nav li a.flex-prev:hover 	{ 
+	/* background-position: -200px -31px;  */
+	background-size: 60px;
+	text-decoration:none;
+	}
+.customNavigation a.next, #tmcmsblockblog .flex-direction-nav li a.flex-next{
+	/* background: url("../images/sprite.png") no-repeat scroll -230px 2px transparent; */
+	background: url("../images/list_next_btn.png") no-repeat center;
+    background-size: 50px;
+    right:-20px;
+	z-index: 1;
+}
+.customNavigation a.next:hover,#tmcmsblockblog .flex-direction-nav li a.flex-next:hover  	{
+	/* background-position: -230px -31px;  */
+	background-size: 60px;
+	text-decoration:none;
+	}
+
+
+
+@media only screen and (max-width: 640px){
+#tmcmsblockblog .flex-direction-nav li a {top: 4px !important;}
+
+}

@@ -1,0 +1,505 @@
+<?php
+include_once('./_common.php');
+
+
+if($member['mb_level'] != "0" && $member['mb_level'] != "8"){
+	alert("메인 창으로 이동합니다.",G5_URL);
+}
+
+$g5['title'] = '견적현황';
+include_once('./_head.php');
+
+$sql = " select a.*, concat(substr(nickname,1,1),'**') as nickname1 from {$g5['match_list']} a where idx = '$idx' ";
+
+$master = sql_fetch($sql);
+
+$sql = " select
+			a.idx,
+			a.match_idx,
+			a.rc_email,
+			a.rc_nickname,
+			a.email,
+			a.nickname,
+			a.price,
+			a.selected,
+			a.proposetime,
+			b.mb_biz_addr1,
+			b.mb_biz_score,
+			b.mb_photo_site
+		from 
+			{$g5['match_propose']} a
+			join {$g5['member_table']} b on a.rc_email = b.mb_email
+		where
+			a.match_idx = '$idx'
+			and a.selected = '1' ";
+$propose_success = sql_fetch($sql);			
+
+$sql = " select
+			a.idx,
+			a.match_idx,
+			a.rc_email,
+			a.rc_nickname,
+			a.email,
+			a.nickname,
+			a.price,
+			a.selected,
+			a.proposetime,
+			b.mb_biz_addr1,
+			b.mb_biz_score,
+			b.mb_photo_site
+		from 
+			{$g5['match_propose']} a
+			join {$g5['member_table']} b on a.rc_email = b.mb_email
+		where
+			a.match_idx = '$idx'
+			and a.selected = '0' ";
+
+$propose_process = sql_query($sql);	
+
+$sql = " select count(*) as cnt from {$g5['match_propose']} where match_idx = '$idx' ";
+$propose_cnt = sql_fetch($sql);
+$centerCnt = $propose_cnt['cnt']; 
+
+$sql = " select count(*) as cnt from {$g5['match_list_multi']} where sub_key = '{$master['sub_key']}'  ";
+$detail_cnt = sql_fetch($sql);
+$detailCnt = $detail_cnt['cnt'];
+if($detail_cnt['cnt'] > 0 ){
+	$sql = " select * from {$g5['match_list_multi']} where sub_key = '{$master['sub_key']}'  ";
+	$detail = sql_query($sql);
+}
+
+?> 
+<link rel="stylesheet" type="text/css" href="/css/jquery.bxslider.css"/>
+<link rel="stylesheet" type="text/css" href="/css/board.css"/>
+<link rel="stylesheet" type="text/css" href="/css/member.css"/>
+
+<div class="sub_title">
+	<h1 class="main_co">매칭현황</h1>
+</div><!-- sub_title -->
+<div class="member com_pd">
+	<div class="container">
+		
+		<div id="board">
+			<div class="view">
+
+				<div class="mob">
+					<div class="mob_slider">
+						<ul id="mob_view_slider">
+							<?php
+							for($i=1;$i<=9;$i++)
+							{
+								if($master['photo'.$i]){
+									echo '<li><a href="'.G5_DATA_URL.'/estimate/'.$master['photo'.$i].'" target="_blank">'.estimate_img_thumbnail($master['photo'.$i], 350, 350).'</a></li>';
+								}
+							}
+							?>	
+						</ul>
+						<div class="text" id="mobileEtype">중고 매칭</div>
+					</div>
+
+					<div class="text-center mob_ing" id="mobileStatus"><?php echo get_match_state($master['state']);?></div>
+
+					
+					<div class="mob_info">
+						<ul class="row"  id="mobileInfo1">
+							<li class='col-xs-6'>
+								<p class='text-center main_co'><i class='xi-money'></i> 내견적가</p>
+								<p class='text-center'>견적에 참여하세요</p>
+							</li>
+							<li class='col-xs-6'>
+								<p class='text-center main_co'><i class='xi-calendar-check'></i> 고객</p>
+								<p class='text-center'><?php echo $master['nickname1']; ?></p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="customer"  id="mobileInfo2">
+						<dl>
+						<dt class='col-xs-1 main_co'>제목</dt><dd class="col-xs-11"><?php echo $master['title']; ?></dd>
+						<dt class='col-xs-1 main_co'>지역</dt><dd class="col-xs-11"><?php echo $master['area1']; ?> <?php echo $master['area2']; ?></dd>
+						<dt class='col-xs-1 main_co'>층수</dt><dd class="col-xs-11"><?php echo $master['elevator_yn']; ?>/<?php echo $master['floor']; ?></dd>
+						<dt class='col-xs-1 main_co'>장소</dt><dd class="col-xs-11"><?php echo $master['match_area']; ?></dd>
+						<dt class='col-xs-1 main_co'>희망가격</dt><dd class="col-xs-11"><?php echo display_estimate_price($master['price']); ?></dd>
+					</dl>
+					</div>
+
+					<div class="customer" id="mobileButton">
+					</div>
+				</div>
+
+				<table class="web">
+					<tr>
+						<th class="photo">
+							<ul id="view_slider">
+							<?php
+							for($i=1;$i<=9;$i++)
+							{
+								if($master['photo'.$i]){
+									echo '<li>'.estimate_img_thumbnail($master['photo'.$i], 350, 350).'</li>';
+								}
+							}
+							?>		
+							</ul>
+							<div class="pager_wrap">
+								<ul id="bx-pager">
+								<?php
+								$seq = 0;
+								for($i=1;$i<=9;$i++)
+								{
+									if($master['photo'.$i]){
+										echo "<li><a data-slide-index='".$seq."' href=''>".estimate_img_thumbnail($master['photo'.$i], 350, 350)."</a></li>";
+										$seq++;
+
+									}
+								}
+								?>	
+								</ul>
+							</div>
+						</th>
+						<td class="info" id="mainTitle">
+							<h1>중고 매칭</h1>
+							<dl>
+								<dt class="col-xs-3">제목</dt><dd class="col-xs-9"><?php echo $master['title']; ?></dd>
+								<dt class="col-xs-3">고객</dt><dd class="col-xs-9"><?php echo $master['nickname1']; ?></dd>
+								<dt class="col-xs-3">지역</dt><dd class="col-xs-9"><?php echo $master['area1']; ?> <?php echo $master['area2']; ?></dd>
+								<dt class="col-xs-3">층수</dt><dd class="col-xs-9"><?php echo $master['elevator_yn']; ?>/<?php echo $master['floor']; ?></dd>
+								<dt class="col-xs-3">장소</dt><dd class="col-xs-9"><?php echo $master['match_area']; ?></dd>
+								<dt class="col-xs-3">희망가격</dt><dd class="col-xs-9"><?php echo display_estimate_price($master['price']); ?></dd>
+							</dl>
+						</td>
+					</tr>
+				</table>
+
+				<h1 class="tt main_co">업체선택</h1>
+
+				<ul class="shop_list" id="proposeList">
+					<?php
+					if($centerCnt > 0){
+						if($propose_success){
+							echo "<li>";
+							echo "<div>";
+							echo "<div class='img'>".estimate_img_thumbnail($propose_success['mb_photo_site'], 350, 350)."</div>";
+							echo "<div class='text'>";
+							if($score < 1){
+								echo "<i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+							}else if($score < 2){
+								echo "<i class='xi-star'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+							}else if($score < 3){
+								echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+							}else if($score < 4){
+								echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+							}else if($score < 5){
+								echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star-o'></i>";
+							}else{
+								echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i>";
+							}
+							echo "<a class='re_btn' href='javascript:doReview(\"".$propose_success['rc_email']."\",\"".$propose_success['score']."\")'>후기보기 <i class='xi-angle-right-min'></i></a>";
+							echo "<h4>".$propose_success['rc_nickname']."</h4>";
+							echo "<h5>".$propose_success['mb_biz_addr1']."</h5>";
+							echo "<div class='pay main_co'><span>".number_format($propose_success['price'],0)."</span>원</div>";
+							echo "</div>";
+							echo "<div class='btn_list'>";
+							echo "<ul class='row'>";
+							echo "<li class='col-xs-6'>";
+							echo "<a class='line_bg' href='javascript:doPriceDetail(\"".$propose_success['idx']."\")'>상세견적</a>";
+							echo "</li>";
+							echo "<li class='col-xs-6'>";
+							echo "<a class='sub_bg' href='javascript:'>선택완료</a>";
+							echo "</li>";
+							echo "</ul>";
+							echo "</div>";
+							echo "</div>";
+							echo "</li>";
+						}else{
+							for ($i=0; $row=sql_fetch_array($propose_process); $i++) {
+								$score = $row['mb_biz_score'];
+								echo "<li>";
+								echo "<div>";
+								echo "<div class='img'>".estimate_img_thumbnail($row['mb_photo_site'], 350, 350)."</div>";
+								echo "<div class='text'>";
+								if($score < 1){
+									echo "<i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+								}else if($score < 2){
+									echo "<i class='xi-star'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+								}else if($score < 3){
+									echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star-o'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+								}else if($score < 4){
+									echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star-o'></i><i class='xi-star-o'></i>";
+								}else if($score < 5){
+									echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star-o'></i>";
+								}else{
+									echo "<i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i><i class='xi-star'></i>";
+								}
+								echo "<a class='re_btn' href='javascript:doReview(\"".$row['rc_email']."\",\"".$row['score']."\")'>후기보기 <i class='xi-angle-right-min'></i></a>";
+								echo "<h4>".$row['rc_nickname']."</h4>";
+								echo "<h5>".$row['mb_biz_addr1']."</h5>";
+								echo "<div class='pay main_co'><span>".number_format($row['price'],0)."</span>원</div>";
+								echo "</div>";
+								echo "<div class='btn_list'>";
+								echo "<ul class='row'>";
+								echo "<li class='col-xs-6'>";
+								echo "<a class='line_bg' href='javascript:doPriceDetail(\"".$row['idx']."\")'>상세견적</a>";
+								echo "</li>";
+								echo "<li class='col-xs-6'>";
+								echo "<a class='main_bg' href='javascript:doSelect(\"".$row['idx']."\",\"".$row['match_idx']."\",\"".$row['rc_nickname']."\")'>업체선택</a>";
+								echo "</li>";
+								echo "</ul>";
+								echo "</div>";
+								echo "</div>";
+								echo "</li>";									
+							}
+						}
+					}else{
+						
+					}
+					?>
+				</ul><!-- shop_list -->
+
+				<h1 class="tt">상세정보</h1>
+
+				<table class="requst_list02" id="subDetail">
+				<?php
+					echo "<colgroup class='web_col'>";
+					echo "<col style='width: 10%' />";
+					echo "<col style='width: 20%' />";
+					echo "<col style='width: 20%' />";
+					echo "<col style='width: 20%' />";
+					echo "<col style='width: 15%' />";
+					echo "<col style='width: 15%' />";
+					echo "</colgroup>";
+				if($detail_cnt['cnt'] > 0 ){					
+					echo "<tr>";
+					echo "<th class='web_td'>품목</th>";
+					echo "<th>세부카테고리</th>";
+					echo "<th>제조사</th>";
+					echo "<th>모델명</th>";
+					echo "<th>년식</th>";
+					echo "<th>수량</th>";
+					echo "</tr>";
+					for ($i=0; $row=sql_fetch_array($detail); $i++) {
+						echo "<tr>";
+						echo "<td class='web_td'>".$row['item_cat']."</td>";
+						echo "<td>".$row['item_cat_dtl']."</td>";
+						echo "<td>".$row['manufacturer']."</td>";
+						echo "<td>".$row['medel_name']."</td>";
+						echo "<td>".$row['year']."</td>";
+						echo "<td>".$row['item_qty']."</td>";
+						echo "</tr>";
+					}	
+				}
+					echo "<tr>";
+					echo "<th>참고사항</th>";
+					echo "<td class='web_td' colspan='5'>".$master['content']."</td>";
+					echo "<td class='mob_td' colspan='4'>".$master['content']."</td>";
+					echo "</tr>";
+				?>
+				</table>
+			</div><!-- view -->
+
+			<div class="btn_wrap">
+				<ul class="row">
+					<li class="col-xs-3 col-xs-offset-9 col-md-1 col-md-offset-11">
+						<a class="main_bg" href="./my_match_list.php?page=<?php echo $page; ?>">리스트</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div><!-- board -->
+
+	</div><!-- container -->
+</div><!-- member -->
+<div class="modal fade" id="modal_review" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">이용후기</h4>
+			</div>
+			<div class="modal-body" id="modal_review_content">
+				<div id="board">
+					<div class="form-group">
+						<p class="text-right" id="reviewTitle">
+							
+						</p>
+					</div>
+					<div id="board">
+						<div class="photo_list">					
+							<table id="reviewList"></table>
+						</div>
+					</div>
+
+					<div class="btn_wrap">
+						<ul class="row">
+							<li class="col-xs-4 col-xs-offset-4"><a class="line_bg" href="#" data-dismiss="modal">닫기</a></li>
+						</ul>
+					</div><!-- btn_wrap -->
+
+				</div><!-- board -->						
+			</div><!-- modal-body -->
+		</div>
+	</div>
+</div><!-- 이용후기 -->
+<div class="modal fade modal_table" id="modal_price_detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">상세견적서</h4>
+			</div>
+			<div class="modal-body">
+				<form id="frmpropose">
+					<div class="form-group">
+						<ul class="row">
+							<li class="col-xs-3 title">
+								견적가격
+							</li>
+							<li class="col-xs-9" id="price"></li>
+						</ul>
+					</div>								
+					<div class='form-group'>
+						<div class='row' id='imageList'>
+							<div class='col-md-4 text-center' id="divPhoto1"></div>
+							<div class='col-md-4 text-center' id="divPhoto2"></div>
+							<div class='col-md-4 text-center' id="divPhoto3"></div>
+							<div class='col-md-4 text-center' id="divPhoto4"></div>
+							<div class='col-md-4 text-center' id="divPhoto5"></div>
+							<div class='col-md-4 text-center' id="divPhoto6"></div>									
+						</div><!-- imageList -->
+					</div>
+						
+					<div class="form-group">
+						<ul class="row">
+							<li class="col-xs-6">
+								<p>상태 및 참고사항</p>
+								<p id="content"></p>
+							</li>
+							<li class="col-xs-6">
+								<p>배송/환불/A/S</p>
+								<p id="delievery"></p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="btn_wrap">
+						<ul class="row">
+							<li class="col-xs-4 col-xs-offset-4"><a class="line_bg" href="#" data-dismiss="modal">닫기</a></li>
+						</ul>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div><!-- 견적 -->	
+<div class="modal fade" id="modal_select" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<form name="frmselect" action="<?php echo G5_URL; ?>/estimate/my_match_form_select.php" method="post" enctype="multipart/form-data" autocomplete="off">
+				<input type="hidden" id="idx"     name="idx">
+				<input type="hidden" id="sub_idx" name="sub_idx">				
+				<input type="hidden" id="page"     name="page" value="<?php echo $page; ?>">
+				<div class="text-center">
+					<i class="xi-error-o"></i>
+					<p id="selectBiz">재활용센터 선택하시겠습니까?</p>
+					<input type="hidden" id="requesttime"> 
+				</div>
+
+				<div class="btn_wrap">
+					<ul class="row">
+						<li class="col-xs-3 col-xs-offset-3"><a class="line_bg" href="#." data-dismiss="modal">닫기</a></li>
+						<li class="col-xs-3"><a class="main_bg" href="javascript:doSelectComplete();">확인</a></li>
+					</ul>
+				</div>
+				</form>
+			</div><!-- modal-body -->
+		</div>
+	</div>
+</div><!-- 선택 -->
+<script type="text/javascript" src="/share/js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	$('#view_slider').bxSlider({
+		auto: false,					// 자동 슬라이드 사용여부
+		controls: false,				// 양옆컨트롤(prev/next) 사용여부
+		speed: 1000,
+		preloadImages: 'all',
+		pager : true,
+		pagerCustom:'#bx-pager'
+	});
+
+	$('#bx-pager').bxSlider({ 
+		minSlides : 5, 
+		maxSlides : 5, 
+		slideWidth : 200, 
+		slideMargin : 5, 
+		controls: true,
+		pager : false
+	});
+
+	$('#mob_view_slider').bxSlider({
+		auto: false,					// 자동 슬라이드 사용여부
+		controls: true,				// 양옆컨트롤(prev/next) 사용여부
+		speed: 1000,
+		preloadImages: 'all',
+		pager : false,
+		oneToOneTouch : false
+	});
+});
+function doReview(rcEmail, score)
+{
+    $.ajax({
+        type: "POST",
+        url: "<?php echo G5_URL ?>/estimate/ajax.review.modal.php",
+        data: {
+        	rc_email:rcEmail
+        },
+        cache: false,
+        success: function(data) {
+			$("#modal_review_content").html(data);
+			
+			$("#modal_review").modal();
+        }
+    });	
+}
+
+function doPriceDetail(idx)
+{
+	$.ajax({
+        type: "POST",
+        url: "<?php echo G5_URL ?>/estimate/ajax.match.detail.modal.php",
+        data: {
+        	idx:idx
+        },
+        cache: false,
+        success: function(data) {
+
+			$("#frmpropose").html(data);
+			
+			$("#modal_price_detail").modal();
+        }
+    });	
+}
+
+function doSelect(idx, matchIdx, bizName)
+{
+	//$("#selectBiz").html(bizName);
+	$("#selectBiz").html(bizName+" 선택하시겠습니까?");
+	
+	var f = document.frmselect;
+	f.idx.value = matchIdx;
+	f.sub_idx.value = idx;
+
+	$("#modal_select").modal();
+}
+
+function doSelectComplete()
+{
+	var f = document.frmselect;
+	f.submit();
+}
+</script>
+<?php
+include_once('./_tail.php');
+?>

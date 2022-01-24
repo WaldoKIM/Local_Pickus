@@ -1,0 +1,57 @@
+
+#fregisterform{max-width: 585px; margin: 0 auto; background-color: #fff; padding: 30px; border-top: 0;} 
+.at-body{background-color: #f4f5f9;}
+input[type="button"]{margin-top: 0;}
+.form-group{border-bottom: 0;}
+.col-xs-4{padding: 0;}
+#divGoodsItem .col-md-2, #divGoodsItem .col-md-4{width: 20%;}
+@media(max-width: 480px){
+    .full_mobile,
+    .full_mobile p,
+    .full_mobile .col-xs-4,
+    .full_mobile .text-right{width: 100%}
+    #divGoodsItem .col-md-2, #divGoodsItem .col-md-4{width: 100% !important;}
+}
+@media(max-width:1024px){
+    .header{
+        display:none !important;
+    }
+}
+
+/*마이페이지이동버튼*/
+.mypage_btn_header{
+display: none;
+}
+
+@media(max-width:1024px){
+.mypage_btn_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 4% 5%;
+    border-bottom: 1px solid #ddd;
+    color: #666 !important;
+    font-family: nanumsquare;
+    background: #fff;
+}
+
+.back_btn{
+    position: absolute;
+}
+
+.back_btn > img{
+    width: 25px;
+}
+
+.title{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.sub_title{
+    display: none;
+}
+}
+/*마이페이지이동버튼끝*/

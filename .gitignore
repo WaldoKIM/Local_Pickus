@@ -1,0 +1,4 @@
+##사진파일, DB 정보, session 등이 업로드 되는 것을 방지하기 위해 data 폴더 전체 제외
+html/data/
+##마켓 DB 정보 제외
+html/market/config.php

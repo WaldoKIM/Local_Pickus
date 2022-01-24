@@ -1,0 +1,43 @@
+/* 
+ * Nanum Gothic (Korean) http://www.google.com/webfonts/earlyaccess
+ */
+
+
+@font-face {
+font-family:NanumBarunGothic;
+src: url('fonts/NanumBarunGothic.eot'); /* IE9 호환성 보기 */
+src: url('fonts/NanumBarunGothic.eot?iefix') format('eot'), /* IE6-IE8 */
+url('fonts/NanumBarunGothic.woff') format('woff'), /* Modern Browsers */
+url('fonts/NanumBarunGothic.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+font-family:NanumBarunGothicBold;
+src: url('fonts/NanumBarunGothicBold.eot'); /* IE9 호환성 보기 */
+src: url('fonts/NanumBarunGothicBold.eot?iefix') format('eot'), /* IE6-IE8 */
+url('fonts/NanumBarunGothicBold.woff') format('woff'), /* Modern Browsers */
+url('fonts/NanumBarunGothicBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Roboto-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto-medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto-thin';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/vzIUHo9z-oJ4WgkpPOtg1_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}

@@ -1,0 +1,33 @@
+
+*{-webkit-margin-start:0; -webkit-text-size-adjust:none;}
+
+/* 회원정보*/
+.joinInfo .bbs_write01 th{width:24%;}
+.joinInfo .bbs_write01 th p{white-space:normal;word-break:keep-all;word-wrap:break-word;}
+.joinInfo .bbs_write01 td{white-space:normal;}
+.joinInfo .bbs_write01 td p{padding:3px 2%;}
+.joinInfo .bbs_write01 td .formSelect{width:26%;}
+.joinInfo .bbs_write01 td .formText{width:94%;margin:2px 0;padding:2px 2%;}
+.joinInfo .bbs_write01 td .textBranch{width:106%;}
+.joinInfo .bbs_write01 td .textNum01{width:26%;}
+.joinInfo .bbs_write01 td .textNum02{width:20%;}
+
+.joinInfo .bbs_write01 td p.sms{padding:3px 2%;}
+.joinInfo .bbs_write01 td input[type="radio"]{margin-left:5px;}
+.joinInfo .bbs_write01 td .formSelect{margin:2px 0;}
+.joinInfo .bbs_write01 td .textAgency{width:95%;}
+.joinInfo .bbs_write01 td.email .formText{width:80%;}
+.joinInfo .bbs_write01 td.email .formSelect{width:85%;}
+.joinInfo .bbs_write01 td .textPost{width:30%;}
+.joinInfo .bbs_write01 td p .btn{padding-left:0;}
+.joinInfo .bbs_write01 td.addr02 .formText{width:95%;}
+.joinInfo .bbs_write01 td .btn{display:inline-block;padding:3px 0;}
+.joinInfo .bbs_write01 td p .btn02{display:block;margin:3px 0;padding-left:0;}
+
+
+.join .joinType{height:auto;padding:28px 30px 72px;}
+.join .joinType ul{width:auto;}
+.join .joinType li{float:none;width:auto;padding-left:0;margin-bottom:8px;text-align:center;}
+.join .join_step{display:none;}
+.join .joinRule .ruleBox{height:150px;}
+.join .joinRule p{text-align:left;}

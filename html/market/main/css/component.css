@@ -1,0 +1,549 @@
+@media (min-width:1140px) and (max-width:2000px){/*tablet ~pc*//*768(611)*/
+/* 전체 테이블 테두리및 여백*/
+.cbp-vm-switcher {
+	padding: 0;
+	margin-top: 10px;
+	border: 0px solid #FFF;
+}
+/* 출력형태조정부분과 제품 사이 줄 간격 */
+.cbp-vm-options {
+	padding-bottom: 5px;
+}
+
+/* 가로진열형제품 전체영역 */
+.cbp-vm-switcher ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/* Clear eventual floats */
+.cbp-vm-switcher ul:before,
+.cbp-vm-switcher ul:after {
+	content: " ";
+	display: table;
+}
+.cbp-vm-switcher ul:after {
+	clear: both;
+}
+.cbp-vm-switcher ul li {
+	display: block;
+	position: relative;
+}
+.cbp-vm-image {
+	display: block;
+	margin: 0 auto;
+}
+/*제품이미지 영역*/
+.cbp-vm-image img {
+	display: inline-block;
+	width: 100%;
+	padding: 4px;
+	border: 1px solid #E8E8E8;
+	border-radius: 0;
+}
+.cbp-vm-image img:hover {
+	border: 1px solid #555;
+}
+.cbp-vm-title {
+	margin: 0;
+	padding: 0;
+}
+.cbp-vm-price {
+	color: #E65E63;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;
+}
+/*장바구니 버튼*/
+.cbp-vm-add {	margin-top: 10px;}
+/********************************* 세로(갤러리형) 제품출력영역 */
+.cbp-vm-view-grid ul {
+	margin-top:50px;
+    display:inline-block
+}
+/*개별제품별영역*/
+.cbp-vm-view-grid ul li {
+	width: 25%;    /*크기줄이면 제품이 자동으로 옆으로 추가됨*/
+	text-align: left;
+	padding: 10px;
+    box-sizing:border-box;
+    float:left;
+}
+
+.cbp-vm-titl_margin {margin:0 0 30px 0; }
+/*큰제목 영역*/
+.cbp-vm-view-grid .cbp-vm-title {
+	padding:5px 0 5px 0;
+	max-width: 250px;
+	margin: 0 auto;
+	font-size: 11pt;
+	color:#333;
+	font-family:'Roboto-regular', 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+	letter-spacing: -0.05em;
+	line-height:20px;
+}
+/*제품금액 영역*/
+.cbp-vm-view-grid .cbp-vm-details {
+	margin: 0;line-height:20px;
+	text-decoration: line-through;
+	font-size: 10pt;
+	background:#;
+	color:#999;
+}
+/*판매금액 영역*/
+.cbp-vm-view-grid .cbp-vm-price {
+	margin: 2px 0;
+	font-size: 14pt;
+	background:#;
+	color:#09C0EF;
+	line-height:20px;
+	letter-spacing: -0.05em;
+	font-family:'Roboto-regular', 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+.cbp-vm-details_newP {display:none}
+.cbp-vm-view-grid .cbp-vm-title_detialtext {display: none;}
+/************************ 가로(리스트형) 진열형 제품별*/
+.cbp-vm-image_bold {width:95%; margin:0 auto}
+.cbp-vm-view-list li {padding:20px 0; border-bottom: 1px solid #E8E8E8;}
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {	display: inline-block;	vertical-align: middle;}
+.cbp-vm-view-list .cbp-vm-image {width: 10%;}/*이미지*/
+.cbp-vm-view-list .cbp-vm-title {
+	width: 44%;
+	font-size: 11pt;
+	background:#;
+	padding:0;
+	margin:0 0 0 20px;
+	font-family:  'RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*제목*/
+.cbp-vm-view-list .cbp-vm-title_detialtext {
+	font-size: 9pt;
+	display:inline-block;
+	padding:5px 0 0 0;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;}/*간략설명*/
+.cbp-vm-view-list .cbp-vm-price {
+	width: 10%;
+	font-size: 10pt;
+	color:#;
+	}/*판매가격*/
+.cbp-vm-view-list .cbp-vm-details {
+	width: 10%;
+	text-decoration: line-through;
+	background:#;
+	padding: 0 15px;
+	}/*시중가격*/
+.cbp-vm-view-list .cbp-vm-add {
+	width: 20%;
+	text-align:center;
+	margin: 0;
+	background:#;
+	}/*버튼*/
+}
+@media only screen and (max-width: 1200px){/*tablet ~pc**/
+/* 출력형태조정부분과 제품 사이 줄 간격 */
+.cbp-vm-options {
+	padding-bottom: 5px;
+}
+/*.cbp-vm-titlel {
+	padding:20px 0 20px 10px;
+	margin: 0 auto;
+	font-size: 10pt;
+	color:#333;
+	font-family: 'rixsgo m', 'nanumbarungothic', 'nanumbarungothicbold', "dotum", 'gulim', sans-serif;
+	background:#fff
+}*/
+.cbp-vm-titl_margin {margin:0 0 30px 0; }
+.cbp-vm-switcher {
+	padding: 0;
+	margin-top: 0px;
+}
+/*큰제목 영역*/
+.cbp-vm-view-grid .cbp-vm-title {
+	padding:10px 0 0 0;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 9pt;
+	background:#;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+/*제품금액 영역*/
+.cbp-vm-view-grid .cbp-vm-details {
+	margin: 0;
+	text-decoration: line-through;
+	font-size: 10pt;
+	background:#;
+	color:#999;
+}
+/*판매금액 영역*/
+.cbp-vm-view-grid .cbp-vm-price {
+	margin: 2px 0;
+	font-size: 10pt;
+	background:#;
+	color:#E65E63;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+/*개별제품별 테두리*/
+/*제품이미지 영역*/
+.cbp-vm-image img {
+	display: inline-block;
+	width: 100%;
+	padding: 4px;
+	border: 1px solid #E8E8E8;
+	border-radius: 0;
+}
+.cbp-vm-image img:hover {
+	border: 1px solid #555;
+}
+/* 세로제품출력영역 */
+.cbp-vm-view-grid ul {
+	text-align: left;
+	background:#;
+}
+/*개별제품별영역*/
+.cbp-vm-view-grid ul li {
+	width: 25%;    /*크기줄이면 제품이 자동으로 옆으로 추가됨*/
+	text-align: left;
+	padding: 10px;
+    box-sizing:border-box;
+    float:left;
+	vertical-align: top;
+	}
+/*장바구니 버튼*/
+.cbp-vm-add {
+	color: #fff;
+	background: #;
+	padding:2px;
+	border-radius: 2px;
+	margin:10px 0 0 0;
+	}
+.cbp-vm-details_newP {display:none}
+.cbp-vm-view-grid .cbp-vm-title_detialtext {display: none;}
+/************************ 가로(리스트형) 진열형 제품별*/
+.cbp-vm-image_bold {width:95%; margin:0 auto}
+.cbp-vm-view-list li {padding:20px 0; border-bottom: 1px solid #E8E8E8;}
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {	display: inline-block;	vertical-align: middle;}
+.cbp-vm-view-list .cbp-vm-image {width: 10%;}/*이미지*/
+.cbp-vm-view-list .cbp-vm-title {
+	width: 40%; font-size: 11pt;
+	background:#; padding:0; margin:0 0 0 20px;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*제목*/
+.cbp-vm-view-list .cbp-vm-title_detialtext {
+	font-size: 9pt; display:inline-block; padding:5px 0 0 0;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;}/*간략설명*/
+.cbp-vm-view-list .cbp-vm-price {width: 10%; font-size: 10pt; color:#E65E63;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*판매가격*/
+.cbp-vm-view-list .cbp-vm-details {width: 10%; text-decoration: line-through;	background:#;padding: 0 15px;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*시중가격*/
+.cbp-vm-view-list .cbp-vm-add {	width: 20%; text-align:center; margin: 0; background:#;}/*버튼*/
+}
+}
+@media only screen and (min-width: 880px) and (max-width: 1138px) {/*모바일,태블릿*/
+/*.cbp-vm-titleL {
+	padding:20px 0 20px 10px;
+	margin: 0 auto;
+	font-size: 10pt;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+	background:#fff
+}*/
+.cbp-vm-titl_margin {margin:0 0 30px 0; }
+/* 세로제품출력영역 */
+.cbp-vm-view-grid ul {
+	text-align: left;
+	background:#;
+	}
+/*개별제품별영역*/
+.cbp-vm-view-grid ul li {
+	width: 25%;    /*크기줄이면 제품이 자동으로 옆으로 추가됨*/
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;background:#;
+	}
+/*장바구니 버튼*/
+.cbp-vm-add {
+	color: #fff;
+	background: #;
+	padding:2px;
+	border-radius: 2px;
+	margin:10px 0 0 0;
+	}
+.cbp-vm-details_newP {display:none}
+.cbp-vm-view-grid .cbp-vm-title_detialtext {display: none;}
+/************************ 가로(리스트형) 진열형 제품별*/
+.cbp-vm-image_bold {width:95%; margin:0 auto}
+.cbp-vm-view-list li {padding:20px 0; border-bottom: 1px solid #E8E8E8;}
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {	display: inline-block;	vertical-align: middle;}
+.cbp-vm-view-list .cbp-vm-image {width: 10%;}/*이미지*/
+.cbp-vm-view-list .cbp-vm-title {
+	width: 35%; font-size: 11pt;
+	background:#; padding:0; margin:0 0 0 20px;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*제목*/
+.cbp-vm-view-list .cbp-vm-title_detialtext {
+	font-size: 9pt; display:inline-block; padding:5px 0 0 0;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;}/*간략설명*/
+.cbp-vm-view-list .cbp-vm-price {width: 10%; font-size: 10pt; background:#;}/*판매가격*/
+.cbp-vm-view-list .cbp-vm-details {width: 10%; text-decoration: line-through;	background:#;padding: 0 15px;}/*시중가격*/
+.cbp-vm-view-list .cbp-vm-add {	width: 20%; text-align:center; margin: 0; background:#;}/*버튼*/
+}
+@media only screen and (min-width: 640px) and (max-width: 879px) {/*모바일,태블릿*/
+/*.cbp-vm-titleL {
+	padding:20px 0 20px 10px;
+	margin: 0 auto;
+	font-size: 9pt;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+	background:#fff
+}*/
+.cbp-vm-titl_margin {margin:0 0 30px 0; }
+/* 세로제품출력영역 */
+.cbp-vm-view-grid ul {
+	text-align: center;
+    display:inline-block;
+    padding:0 25px
+}
+/*장바구니 버튼*/
+.cbp-vm-add {
+	color: #fff;
+	padding:2px;
+	border-radius: 2px;
+	margin-top:10px;
+	}
+.cbp-vm-details_newP {display:none}
+/************************ 가로(리스트형) 진열형 제품별*/
+.cbp-vm-image_bold {width:95%; margin:0 auto}
+.cbp-vm-view-list li {padding:20px 0; border-bottom: 1px solid #E8E8E8;}
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {	display: inline-block;	vertical-align: middle;}
+.cbp-vm-view-list .cbp-vm-image {width: 10%;}/*이미지*/
+.cbp-vm-view-list .cbp-vm-title {
+	width: 30%; font-size: 11pt;
+	background:#; padding:0; margin:0 0 0 20px;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*제목*/
+.cbp-vm-view-list .cbp-vm-title_detialtext {
+	font-size: 9pt; display:inline-block; padding:5px 0 0 0;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;}/*간략설명*/
+.cbp-vm-view-list .cbp-vm-price {width: 15%; font-size: 10pt; background:#;}/*판매가격*/
+.cbp-vm-view-list .cbp-vm-details {width: 10%; text-decoration: line-through;	background:#;padding: 0 15px;}/*시중가격*/
+.cbp-vm-view-list .cbp-vm-add {	width: 20%; text-align:center; margin: 0; background:#;}/*버튼*/
+}
+@media (max-width:840px) {
+    /*개별제품별영역*/
+    .cbp-vm-view-grid ul li{width:48.6%;text-align:left;padding:0;margin:0;display:inline-block;vertical-align:top; margin-bottom: 2%;}
+    .cbp-vm-view-grid ul li:nth-child(odd){margin-right:2.8%}
+}
+@media only screen and (min-width: 480px) and (max-width: 639px) {/*모바일*/
+/*.cbp-vm-titleL {
+	padding:20px 0 20px 10px;
+	margin: 0 auto;
+	font-size: 9pt;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+	background: #fff
+}*/
+.cbp-vm-titl_margin {margin:0 0 30px 0; }
+/* 세로제품출력영역 */
+.cbp-vm-view-grid ul {padding:0 25px;display:inline-block}
+/*큰제목 영역*/
+.cbp-vm-view-grid .cbp-vm-title {
+	padding:10px 0 0 0;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 9pt;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+/*제품금액 영역*/
+.cbp-vm-view-grid .cbp-vm-details {
+	margin: 0;
+	text-decoration: line-through;
+	font-size: 9pt;
+	color:#999;
+}
+/*판매금액 영역*/
+.cbp-vm-view-grid .cbp-vm-price {
+	margin: 2px 0;
+	font-size: 9pt;
+	color:#E65E63;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+/*개별제품별영역*/
+.cbp-vm-view-grid ul li {width: 48.6%;text-align: left;padding: 0;margin: 0;display: inline-block;vertical-align: top;}
+.cbp-vm-view-grid ul li:nth-child(odd){margin-right:2.8%}
+/*장바구니 버튼*/
+.cbp-vm-add {
+	color: #fff;
+	padding:2px;
+	border-radius: 2px;
+	 margin-top:10px;
+	display: inline-block;
+	}
+/*.cbp-vm-view-list {display:none}*/
+/*.cbp-vm-options {display:none}*/
+/************************ 가로(리스트형) 진열형 제품별*/
+.cbp-vm-image_bold {width:95%; margin:0 auto}
+.cbp-vm-view-list li {padding:20px 0; border-bottom: 1px solid #E8E8E8;}
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {	display: inline-block;	vertical-align: middle;}
+.cbp-vm-view-list .cbp-vm-image {width: 10%;}/*이미지*/
+.cbp-vm-view-list .cbp-vm-title {
+	width: 40%; font-size: 11pt;
+	background:#; padding:0; margin:0 0 0 20px;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*제목*/
+.cbp-vm-view-list .cbp-vm-title_detialtext {
+	font-size: 8pt; display:inline-block; padding:5px 0 0 0;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;}/*간략설명*/
+.cbp-vm-view-list .cbp-vm-price {width: 15%; font-size: 9pt; background:#;text-align:center;}/*판매가격*/
+.cbp-vm-view-list .cbp-vm-details_newP {display: inline-block; font-size: 8pt;color:#555;
+	text-decoration: line-through;	padding: 0 0;text-align:center;}
+.cbp-vm-view-list .cbp-vm-details {display:none}/*시중가격*/
+.cbp-vm-view-list .cbp-vm-add {	width: 20%; text-align:center; margin: 0; background:#;}/*버튼*/
+}
+@media only screen and (max-width: 479px) {/*모바일*/
+/*.cbp-vm-titleL {
+	padding:20px 0 20px 10px;
+	margin: 0 auto;
+	font-size: 9pt;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+	background: #fff
+}*/
+.cbp-vm-titl_margin {margin:0 0 30px 0; }
+/* 세로제품출력영역 */
+.cbp-vm-view-grid ul{display:inline-block;padding:0 2%;}
+/*큰제목 영역*/
+.cbp-vm-view-grid .cbp-vm-title {
+	padding:10px 0 0 0;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 9pt;background:#;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+/*제품금액 영역*/
+.cbp-vm-view-grid .cbp-vm-details {
+	margin: 0;
+	text-decoration: line-through;
+	font-size: 9pt;
+	color:#999;
+}
+/*판매금액 영역*/
+.cbp-vm-view-grid .cbp-vm-price {
+	margin: 2px 0;
+	font-size: 9pt;background:#;
+	color:#E65E63;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+.cbp-vm-view-grid ul li {
+	width: 38%;    /*크기줄이면 제품이 자동으로 옆으로 추가됨*/
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+	}
+/*장바구니 버튼*/
+.cbp-vm-add {
+	color: #fff;
+	background: #;
+	padding:10px;
+	border-radius: 2px;
+	 margin-top:10px;
+	display: inline-block;
+	}
+}
+@media only screen and (min-width: 1px) and (max-width: 478px) {/*모바일*/
+/*.cbp-vm-titleL {
+	padding:20px 0 20px 10px;
+	margin: 0 auto;
+	font-size: 9pt;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+	background:#fff
+}*/
+.cbp-vm-titl_margin {margin:0 0 30px 0; }
+/*큰제목 영역*/
+.cbp-vm-view-grid .cbp-vm-title {
+	padding:10px 0 0 0;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 9pt;
+	color:#333;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+/*제품금액 영역*/
+.cbp-vm-view-grid .cbp-vm-details {
+	margin: 0;
+	text-decoration: line-through;
+	font-size: 9pt;
+	color:#999;
+}
+/*판매금액 영역*/
+.cbp-vm-view-grid .cbp-vm-price {
+	margin: 2px 0;
+	font-size: 9pt;
+	color:#E65E63;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;
+}
+.cbp-vm-view-grid ul li {width: 48.6%;text-align: left;padding: 0;margin: 0;display: inline-block;vertical-align: top;}
+.cbp-vm-view-grid ul li:nth-child(odd){margin-right:2.8%}
+/************************ 가로(리스트형) 진열형 제품별*/
+.cbp-vm-image_bold {width:95%; margin:0 auto}
+.cbp-vm-view-list li {padding:20px 0; border-bottom: 1px solid #E8E8E8;}
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {	display: inline-block;	vertical-align: middle;}
+.cbp-vm-view-list .cbp-vm-image {width: 20%;}/*이미지*/
+.cbp-vm-view-list .cbp-vm-title {
+	width: 46%; font-size: 9pt;
+	background:#; padding:0; margin:0 0 0 20px;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*제목*/
+.cbp-vm-view-list .cbp-vm-title_detialtext {
+	font-size: 8pt; display:inline-block; padding:5px 0 0 0;
+	font-family: 'RixSGo M', 'NanumBarunGothic', 'NanumBarunGothicBold', "Dotum", 'Gulim', sans-serif;}/*간략설명*/
+.cbp-vm-view-list .cbp-vm-price {width: 20%; font-size: 9pt;text-align:center;}/*판매가격*/
+.cbp-vm-view-list .cbp-vm-details_newP {display: inline-block; font-size: 8pt;color:#555;
+	text-decoration: line-through;	padding: 0 0;text-align:center;}
+.cbp-vm-view-list .cbp-vm-details {display:none}/*시중가격*/
+.cbp-vm-view-list .cbp-vm-add {	display:none}/*버튼*/
+}
+@media only screen and (max-width: 380px) {/*모바일*/
+.cbp-vm-add {display: none;}
+/************************ 가로(리스트형) 진열형 제품별*/
+.cbp-vm-image_bold {width:95%; margin:0 auto}
+.cbp-vm-view-list li {padding:20px 0; border-bottom: 1px solid #E8E8E8;}
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {	display: inline-block;	vertical-align: middle;}
+.cbp-vm-view-list .cbp-vm-image {width: 20%;}/*이미지*/
+.cbp-vm-view-list .cbp-vm-title {
+	width: 38%; font-size: 8pt;
+	background:#; padding:0; margin:0 0 0 20px;
+	font-family:  'RixSGo B','RixSGo M', 'NanumBarunGothicBold', 'NanumBarunGothic', "Dotum", 'Gulim', sans-serif;}/*제목*/
+.cbp-vm-view-list .cbp-vm-title_detialtext {display:none}/*간략설명*/
+.cbp-vm-view-list .cbp-vm-price {width: 30%; font-size: 9pt; background:#;text-align:center;}/*판매가격*/
+.cbp-vm-view-list .cbp-vm-details_newP {display: inline-block; font-size: 8pt;color:#555;
+	text-decoration: line-through;	padding: 0 0;text-align:center;}
+.cbp-vm-view-list .cbp-vm-details {display:none}/*시중가격*/
+.cbp-vm-view-list .cbp-vm-add {	display:none}/*버튼*/
+}

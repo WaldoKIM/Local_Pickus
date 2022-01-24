@@ -1,0 +1,2 @@
+2021_11_18_15:26:37 | 검색모델명 : wkrg244ces | 검색된 정보 : [{"_id":{},"idx":"8426","category2":"가전","category3":"냉장고","brand":"대우전자","year":"2019년","model_name":"WKRG244CES","model_code":"WKRG244CES","avgPrice":"280000","count":"3","maxPrice":"110000","minPrice":"70000"}]
+2021_11_18_15:37:40 | 검색모델명 : dwf-15gagc | 검색된 정보 : []

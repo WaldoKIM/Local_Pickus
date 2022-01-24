@@ -1,0 +1,10 @@
+0423-200710 -  8745 - T00004NK4E5K1jNl - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[MBGKI1429787027]+log_level=[3]
+0423-200710 -  8745 - T00004NK4E5K1jNl - MSG : PG_서버_접속__정상
+0423-200710 -  8745 - T00004NK4E5K1jNl - MSG : PG_서버_요청_전문_전송__정상
+0423-200710 -  8745 - T00004NK4E5K1jNl - MSG : PG_서버_응답_전문_수신__정상
+0423-200710 -  8745 - T00004NK4E5K1jNl - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=T00004NK4E5K1jNlpay_method=PACAorder_no=MBGKI1429787027card_cd=CCLGcard_name=신한카드acqu_cd=CCLGacqu_name=신한카드card_no=3569080000004712mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=MBGKI1429787027tno=20150423917763amount=2500card_mny=2500coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20150423200710van_apptime=20150423200710app_no=55363978bizx_numb=0042620716quota=00noinf=Npg_txid=0423200710MP01AIRMGY2I0000000025000055363978partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=0join_cd=0000]
+0423-200839 -  8784 - T00004NK4E5K1jNl - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[MBGKI1429787027]+log_level=[3]
+0423-200839 -  8784 - T00004NK4E5K1jNl - MSG : PG_서버_접속__정상
+0423-200839 -  8784 - T00004NK4E5K1jNl - MSG : PG_서버_요청_전문_전송__정상
+0423-200839 -  8784 - T00004NK4E5K1jNl - MSG : PG_서버_응답_전문_수신__정상
+0423-200839 -  8784 - T00004NK4E5K1jNl - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=T00004NK4E5K1jNlpay_method=PACAorder_no=MBGKI1429787027card_cd=CCLGcard_name=신한카드acqu_cd=CCLGacqu_name=신한카드card_no=3569080000004712mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=MBGKI1429787027tno=20150423917765amount=2500card_mny=2500coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20150423200839van_apptime=20150423200839app_no=11893135bizx_numb=0042620716quota=00noinf=Npg_txid=0423200839MP01AARMIUII0000000025000011893135partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=0join_cd=0000]

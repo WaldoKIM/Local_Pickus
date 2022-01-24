@@ -1,0 +1,253 @@
+/* include 된 페이지에 가려지는 현상때문에 툴팁 포기 kjs */
+.tooltips {
+    position: relative;
+    display: inline-block;    
+  }
+  
+ span.tooltiptexts {
+    visibility: hidden;
+    text-overflow:ellipsis;
+    width: 150%;
+    height: 10rem;
+    background-color: rgba(108, 103, 121, 0.666);    
+    
+    
+    
+    
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+  }
+
+  span.tooltiptexts p {   
+    text-overflow:ellipsis;
+    word-break:keep-all;
+    font-size: 1.5rem;    
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+    margin: 2rem 2rem 2rem 3rem;
+  }
+/* include 된 페이지에 가려지는 현상때문에 툴팁 포기 kjs *수정요망 */
+ .tooltips:hover + span.tooltiptexts {
+    visibility: hidden;
+  }
+  */
+
+  ul.row > li > span.newconnect {
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    width: 3rem;
+    height: 3rem;       
+    background-color: rgb(255, 111, 15);
+    border-radius: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.8rem;    
+    color: #fff;   
+  }
+
+  ul.row > li > span.off{ display: none;}
+
+  .noty span.newconnect {
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    width: 3rem;
+    height: 3rem;       
+    background-color: rgb(255, 111, 15);
+    border-radius: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.8rem;    
+    color: #fff;   
+  }
+
+  .noty span.off{ display: none;}
+
+  .tit_desc {
+    font-size: 1.5rem;
+    word-break: keep-all;
+    line-height: 1.5rem;    
+  }
+
+  .nolistatall {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(73, 71, 80);
+    
+  }
+  .nolistatallx {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(73, 71, 80);
+    
+  }
+
+  .cmform{
+    position: relative;
+    top: -1rem;
+   }
+
+   .customer_manage{
+   position: relative;
+   height: 1.8rem;
+   
+  }
+
+  .reviewtb{
+    display: none;
+    
+    
+   }
+   ul.row > li > span.newconnect {
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    width: 3rem;
+    height: 3rem;       
+    background-color: rgb(255, 111, 15);
+    border-radius: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.8rem;    
+    color: #fff;   
+  }
+
+ 
+
+  /* 마켓 CSS 덮기 */
+  .htitle
+    {font-size: 3rem !important;}
+  .hsubtitle {
+    font-size: 3rem !important;
+    color: rgb(93, 95, 99) !important;
+    margin: 1.8rem 0 0 1rem;
+    } 
+    .hdesc
+    {
+    font-size: 1.5rem !important;
+    text-align: center !important;}
+    .ha
+    {
+      color: black!important;
+    } 
+    td
+    {font-size: 1.5rem !important;    }
+
+    .minus10 {
+      margin-bottom: 2rem!important;
+    }
+      #board .list_info {
+    }
+    @media(max-width: 768px){	  
+    #board .list_info {
+    padding-bottom: 0rem!important;	
+    }
+    
+    
+  }
+  
+    .member h3{width:100%}
+    .row{margin: 10px 0 0 0 ;}
+    
+    .tab_area .tab li{border-bottom: 1px solid #ececec; border-radius: 18px;}
+    .tab_area .tab{max-width: 1200px; margin: 0 auto;}
+    /* on 클래스명을 estimate_list1 list2 파일에도 적용시킬 것 KJS 가능하면 파라미터 처리하면 좋겠다만...*/
+    .tab_area .tab .main_bg.on h4{color: #fff;}
+    .tab_area .tab .on{background-color: #1379cd; }
+    .tab_area .tab .on a{color: #fff;}
+    #btn_more{display: none;}
+    #tableList h3{text-align: center  !important; position: relative;}
+    #tableList h3 span{position: absolute; right: 15px;}
+    @media(min-width: 768px){
+      #btn_more{box-shadow: none; border:0; color: transparent;}	
+      #btn_more a{color: transparent;}
+    }
+     @media(max-width: 768px){     
+      .req_list{width: 100%; margin-left: 0 !important;} 
+      #btn_more img{display: none;}
+      .btm_quick ul li{width: 50%;}
+    }
+
+    .mbtn1{
+      margin: 0 20px 0 40px;
+    }
+    .mbtn2{
+      margin: 0 30px 0 30px;
+    }
+    .mbtn3{
+      margin: 0 40px 0 20px;
+    }
+
+    .selc  {margin: 0.2rem 5rem 0 0;
+      width: 15rem;
+      height: 3.5rem;
+      border: darkorange solid 2px !important;
+      font-size: 3rem;    
+      border-radius: 0% !important;
+      }
+
+      .selc:hover{
+        background-color: darkorange !important;      
+      }
+
+      .selc label  {margin-top: 1.2rem;        
+        color: black;
+      }
+      .selc .hlabel  {margin-top: 1.7rem !important;
+      }
+
+
+    @media(max-width: 768px){
+      .mbtn1{
+        margin: 0 0 0 0;
+      }
+      .mbtn2{
+        margin: 0;
+      }
+      .mbtn3{
+        margin: 0;
+      }
+
+    .selc  {margin: 0.2rem 10rem 2rem 0;
+      width: 15rem;
+      height: 3.5rem;
+      border: darkorange solid 2px !important;
+      font-size: 3rem;    
+      border-radius: 0% !important;
+      }
+
+      .selc:hover{
+        background-color: darkorange !important;      
+      }
+
+      .selc label  {margin-top: 1.2rem;        
+        color: black;
+      }
+      .selc .hlabel  {margin-top: 1.7rem !important;
+      }
+    }
+      
+      .req_form {font-size: 3rem !important;}
+      .scr_form {font-size: 3rem !important;}
+
+      @media(max-width: 768px){        
+        .msubtitle {font-size: 2rem !important;}
+        .htitle   {font-size: 2.2rem !important;}        
+        .hsubtitle   {font-size: 1.8rem !important;}
+        .hdesc {font-size: 1.2rem !important;}
+      }
+

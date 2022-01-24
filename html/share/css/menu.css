@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*header{ transition: all 150ms; -webkit-transition: all 150ms; }*/
+header.fix{ position: fixed; top: 0; width: 100%; z-index: 20; background: rgba(255,255,255,0.95); border-bottom: 1px solid #ececec; }
+
+.gnb{ background: #1379cd; }
+.gnb ul {float: right; }
+.gnb li{ float: left; position: relative; }
+.gnb li a{ display: block; padding: 5px 15px; font-size: 12px; color: #fff; }
+
+nav{ position: relative; font-weight: 400; }
+nav .nav a{ display: block; line-height: 80px; }
+nav .nav .top_logo{ float: left; width: 20%; text-align: left; }
+nav .nav .top_logo img{ width: auto; max-width: 100%; }
+nav .nav .menu{ float: left; width:60%; }
+nav .nav .menu li{ float: left; width: 33.3%; }
+nav .nav .menu li a{ display: block; position: relative; text-align: center; }
+nav .nav .menu li a:hover{ color: #1379cd; }
+nav .nav .market{ float: left; width: 20%; text-align: right; }
+
+/*퀵메뉴*/
+#quick { position: absolute; width: 90px; top: 350px; right: 5px; z-index: 50; }
+.modal-open #quick{ right: 22px; }
+#quick li{ padding: 0 10px; background: rgba(0,0,0,0.4); }
+#quick li div{ position: relative; z-index: 1; height: 90px; margin: 0 0 -15px 0; padding: 18px 0; text-align: center; color: #fff; border-radius: 50px; background: #1379cd; box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3); }
+#quick li:nth-child(1){ padding: 0; background: none; }
+#quick li a{ display: block; padding: 10px 0; text-align: center; color:#fff; border-top:1px solid rgba(219,219,219,0.5); }
+#quick li:nth-child(2){ border-radius: 5px 5px 0 0; }
+#quick li:last-child{ border-radius: 0 0 5px 5px; }
+#quick li:nth-child(2) a{ padding: 30px 0 10px 0; border-top: 0; }
+#quick li img{ width:100%; }
+@media ( max-width: 1500px) {
+	#quick{ display: none; }
+}
+
+/*모바일메뉴*/
+.mob_nav{ position: relative; z-index: 10; }
+.mob_nav img{ width: auto; }
+.mob_nav a{ display: block; text-align: center; padding: 13px 0; }
+.mob_nav a img{ height: 24px; }
+
+.mob_back{ position: absolute; left: 0; top: 0; width: 50px; height: 50px; font-size: 2.2em; text-align: center; line-height: 50px; color: #000; cursor: pointer; }
+
+html.open { overflow: hidden; } /*메뉴가 열렸을때 본문이 스크롤 되지 않는다.*/
+.mob_btn { position: absolute; right: 0px; top: 0px; z-index: 1; width: 50px; padding: 15px 0; line-height: 1em; text-align: center; cursor: pointer; }/*메뉴 버튼*/
+
+.close { width: 50px; height: 50px; padding: 15px; position: absolute; right: 0px; top: 0px; z-index: 10; cursor: pointer; }/*닫기 버튼*/
+
+#menu { width: 80%; height: 100%; position: fixed; top: 0px; right: -100%; z-index: 999999; background: #fff; transition: All 0.2s ease; -webkit-transition: All 0.2s ease; -moz-transition: All 0.2s ease; -o-transition: All 0.2s ease; } /*메뉴 영역*/
+
+#menu .my{ padding: 15px; }
+#menu .my h2 a{ vertical-align: middle; font-size: 12px; }
+
+.login li{ padding: 10px; text-align: center; }
+.login li a{ display: block; padding: 10px 0; border-radius: 50px; }
+
+#nav-left > li{border-bottom: 1px solid #ececec;}
+#nav-left > li > div { position: relative; padding: 15px; }
+#nav-left > li > a{ display: block; padding: 15px; }
+#nav-left > .open_menu > div:after { content: "\e941"; position: absolute; right: 15px; font-family: 'xeicon'; }
+#nav-left > .open > div:after { content: "\e944"; font-family: 'xeicon'; }
+
+/* 모바일 서브 */
+#nav-left > li > ul{display: none;}
+#nav-left > .open_menu > ul{ display: none; background: #eee; }
+#nav-left > .open_menu > ul > li > a{ display: block; position: relative; padding: 10px 0 10px 40px; }
+#nav-left > .open_menu > ul > li > a:before{ content: "\e91b"; font-family: 'xeicon'; position: absolute; left: 20px; }
+
+#menu .coll{ padding: 15px; }
+#menu .coll h1{ padding: 5px 0 10px 0; }
+#menu .coll p{ color: #98999a; }
+
+#menu.open { right: 0px; overflow-y: scroll; }
+
+.page_cover.open { display: block; }
+
+.page_cover { width: 100%; height: 100%; position: fixed; top: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.4); z-index: 99999; display: none; }
+
+/*하단*/
+footer{ padding: 0 0 10px 0; font-size: 16px; color: #969696; background: #393939; }
+
+footer .link{ border-bottom: 1px solid #616161; }
+footer .link ul li{ float: left; }
+footer .link ul li a{ display: block; padding: 10px; }
+footer .link .co{ color: #6faee4; }
+
+footer .f-left{ float: left; padding: 0 10px; }
+footer .f-right{ float: right; padding: 0 10px; }
+
+footer .info{ padding: 1% 0; color: #999; overflow: hidden; }
+footer .info h1{ padding:15px 0 5px 0; font-size: 2.3em; }
+footer .info p{ line-height: 1.5em; }
+footer .tel{ letter-spacing: 1px; color: #6faee4; }
+
+footer .top{ position: inherit; }
+footer .top i{ position: absolute; bottom: 15px; right: 15px; border-radius: 30px; width: 30px; height: 30px; font-size: 1.3em; line-height: 30px; text-align: center; border: 1px solid #b5bccf;}
+
+@media (max-width:991px) {
+	footer{ font-size: 12px; }
+	footer .f-right{ float: left; }
+}

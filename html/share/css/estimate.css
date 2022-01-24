@@ -1,0 +1,49 @@
+@charset "utf-8";
+.estimate h1{ padding: 1.5em 0; text-align: center; }
+.estimate .line{ position: relative; }
+.estimate .line:before{ content: ""; position: absolute; top: 0; left:50%; width: 1px; height: 100%; background: #cccccc; }
+.estimate .line ul li{ padding-bottom: 12%; text-align: center; }
+.estimate .line ul li span{ display: inline-block; padding: 10px 20px; border-radius: 50px; }
+.estimate .line ul li h2{ padding: 0 0 3% 0; }
+.estimate .line ul li p{ text-align: left; }
+.estimate .line ul li .tt_right{ padding: 0 0 0 140px; }
+.estimate .line ul li .tt_left{ padding: 0 140px 0 0; }
+.estimate .line ul li img{ width: auto; max-width: 80%; }
+.estimate .line ul li a{ display: block; width: 60%; padding: 10px 0; margin: 0 auto; text-align: center; border-radius: 50px; }
+
+.estimate .line ul .bg01{ background:url('../../img/estimate/estimate_icon_01.png') no-repeat; background-position: 100% 20px; }
+.estimate .line ul .bg02{ background:url('../../img/estimate/estimate_icon_02.png') no-repeat; background-position: 0% 20px; }
+.estimate .line ul .bg03{ background:url('../../img/estimate/estimate_icon_03.png') no-repeat; background-position: 100% 20px; }
+.estimate .line ul .bg04{ background:url('../../img/estimate/estimate_icon_04.png') no-repeat; background-position: 0% 20px; }
+.estimate .line ul .bg05{ background:url('../../img/estimate/estimate_icon_05.png') no-repeat; background-position: 100% 20px; }
+@media ( max-width: 991px) {
+	.estimate .line:before{ content: ""; display: none; }
+	.estimate .line ul{ padding: 7% 0; border-bottom: 1px solid #f5f5f5; }
+	.estimate .line ul .bg01, .estimate .line ul .bg02, .estimate .line ul .bg03, .estimate .line ul .bg04, .estimate .line ul .bg05{ background: none; }
+	.estimate .line ul li{ padding-bottom: 0; }
+	.estimate .line ul li .tt_right{ padding: 0 10px; }
+	.estimate .line ul li .tt_left{ padding: 0 10px; }
+}
+
+.choice .box_01 ul li{ padding-top: 3%; padding-bottom: 3%; }
+.choice .box_01 ul li a{ display: block; text-align: center; padding: 0 0 30px 0; box-shadow: 3px 5px 10px rgba(0,0,0,0.5); }
+.choice .box_01 ul li a:hover{ background: #eee; }
+.choice .box_01 ul li .on{ background: #eee; }
+.choice .box_01 ul li h4{ position: relative; padding: 30px 0; }
+.choice .box_01 ul li h4 i{ position: absolute; width: 30px; margin: 0 auto; left: 0; right: 0; bottom: 15px; border-bottom: 1px solid #a9a9a9; }
+.choice .box_01 ul li p{ padding: 0 0 20px 0; color: #525252; }
+.choice .box_01 ul li span{ display: inline-block; width: 50%; margin: 0 auto; padding: 10px 0; font-size: 0.9em; }
+
+.guide h5{ position: relative; padding: 10px 15px; border-top: 1px solid #eee; }
+.guide h5:before{ content: ""; position: absolute; left: 0; top: 14px; width: 10px; height: 10px; border-radius: 5px 0 5px 5px; background: #1379cd; }
+.guide ul{ padding: 0 0 10px 0; }
+.guide ul li{ padding: 5px 10px; }
+
+/* 견적신청 */
+.request .category { padding:0 0 15px 0; font-weight: 500; border-bottom: 1px solid #ccc; }
+.request .category h1{ line-height: 40px; }
+#imageList > div { padding-bottom: 10px;  }
+
+
+.form-group th{ padding: 10px; text-align: center; font-weight: 300; color: #fff; background: #1379cd; }
+.form-group td{ padding: 10px; text-align: center; border-bottom: 1px solid #ececec; }

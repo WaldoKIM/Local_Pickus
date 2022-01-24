@@ -1,0 +1,43 @@
+	.tab .row .on{background-color: #1379cd; }
+	.tab .row .on a{color: #fff;}
+    .mr4 {margin-right: 4rem;}    
+   ul.row > li > span.newconnect {
+        position: absolute;
+        top: -20%;
+        right: 0%;
+        width: 3rem;
+        height: 3rem;       
+        background-color: rgb(255, 111, 15);
+        border-radius: 100%;
+        padding: 0.5rem;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1.8rem;    
+        color: #fff;   
+      }
+ul.row > li > span.off{ display: none;}
+
+    @media(max-width:768px){
+        .mr4 {margin-right: 0rem;}
+        ul.row > li > span.newconnect {
+            position: absolute;
+            top: -20%;
+            right: 0%;
+            width: 2rem;
+            height: 2rem;       
+            background-color: rgb(255, 111, 15);
+            border-radius: 100%;
+            padding: 0rem;
+            text-align: center;
+            line-height: 2rem;
+            font-size: 1.5rem;    
+            color: #fff;   
+          }        
+    }
+	
+	@media(max-width:1024px){
+		#board{
+			margin-bottom: 50% !important;
+		}
+	}
+    
